@@ -1,5 +1,5 @@
 #define AppName "Floating Sandbox Discord Mods"
-#define AppVersion "v1.7.0"
+#define AppVersion "v1.8.0"
 #define AppPublisher "Longhorn"
 #define MyAppExeName "multimodinstaller.exe"
 #define DefDir 
@@ -19,7 +19,7 @@ Name: "full"; Description: "Full installation"
 Name: "custom"; Description: "Custom installation"; Flags: iscustom
 
 [Components]
-Name: "Extra_Materials_Mod"; Description: "Floating Sandbox Extra Materials Mod v3.0"; Types: full
+Name: "Extra_Materials_Mod"; Description: "Floating Sandbox Extra Materials Mod v3.1"; Types: full
 Name: "Mias_Black_Smoke_Mod"; Description: "Mia's Black Smoke Mod"; Types: full
 Name: "Bandits_Screaming_Mod"; Description: "Bandit's Screaming Mod"; Types: full
 Name: "Bandits_Background_Music_Mod"; Description: "Bandit's Background Music Mod"; Types: full
