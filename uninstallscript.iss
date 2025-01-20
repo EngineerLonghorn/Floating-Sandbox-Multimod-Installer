@@ -1,5 +1,5 @@
 #define AppName "Original Floating Sandbox Vanilla Files"
-#define AppVersion "v1.7.0"
+#define AppVersion "v1.8.0"
 #define AppPublisher "Longhorn"
 #define MyAppExeName "floatingsandboxdiscordmodpackuninstaller.exe"
 
@@ -18,7 +18,7 @@ Name: "full"; Description: "Full uninstallation"
 Name: "custom"; Description: "Custom uninstallation"; Flags: iscustom
 
 [Components]
-Name: "Extra_Materials_Mod"; Description: "Uninstall Floating Sandbox Extra Materials Mod v3.0"; Types: full
+Name: "Extra_Materials_Mod"; Description: "Uninstall Floating Sandbox Extra Materials Mod v3.1"; Types: full
 Name: "Extra_Materials_Mod\Extra_Materials_Mod_Splash_Screen"; Description: "Uninstall Floating Sandbox Extra Materials Mod v2.0 Splash Screen"; Types: full
 Name: "Mias_Black_Smoke_Mod"; Description: "Uninstall Mia's Black Smoke Mod"; Types: full
 Name: "Bandits_Screaming_Mod"; Description: "Uninstall Bandit's Screaming Mod"; Types: full
