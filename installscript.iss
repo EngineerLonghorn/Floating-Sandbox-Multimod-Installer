@@ -63,9 +63,9 @@ Source: "files\materials-em\materials_electrical.json"; DestDir: "{app}\Data"; C
 Source: "files\materials-em\materials_structural_template.png"; DestDir: "{app}\Guides"; Components: "materials\em"
 Source: "files\materials-em\Textures\Material\*"; DestDir: "{app}\Data\Textures\Material"; Components: "materials\em"; Flags: recursesubdirs createallsubdirs
 ; Default Floating Sandbox Textures Mod
-Source: "files\materials-em\materials_structural.json"; DestDir: "{app}\Data"; Components: "materials\fs"
-Source: "files\materials-em\materials_electrical.json"; DestDir: "{app}\Data"; Components: "materials\fs"
-Source: "files\materials-em\materials_structural_template.png"; DestDir: "{app}\Guides"; Components: "materials\fs"
+Source: "files\materials-fs\materials_structural.json"; DestDir: "{app}\Data"; Components: "materials\fs"
+Source: "files\materials-fs\materials_electrical.json"; DestDir: "{app}\Data"; Components: "materials\fs"
+Source: "files\materials-fs\materials_structural_template.png"; DestDir: "{app}\Guides"; Components: "materials\fs"
 ; Tapeman's Material Textures Mod
 Source: "files\materials-tapeman\*"; DestDir: "{app}\Data\Textures\Material"; Components: "materials\tapeman"; Flags: recursesubdirs createallsubdirs
 ; Mia's Black Smoke Mod
@@ -104,3 +104,4 @@ Source: "files\splashscreen-em\sunset\*"; DestDir: "{app}\Data\Resources"; Compo
 Source: "files\splashscreen-em\night\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\emnight"; Flags: recursesubdirs createallsubdirs
 ; Default Floating Sandbox Splash Screens
 Source: "files\splashscreen-fs\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\fs"; Flags: recursesubdirs createallsubdirs
+
