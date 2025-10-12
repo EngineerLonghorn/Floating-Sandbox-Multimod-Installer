@@ -1,0 +1,12 @@
+{
+  "description": "Make your ship as strong and rigid as jelly!",
+  "settings": {
+    "global_damping_adjustment": 0,
+    "max_num_simulation_threads": 1,
+    "num_mechanical_dynamics_iterations_adjustment": 0.5,
+    "spring_damping_adjustment": 0.0625,
+    "spring_stiffness_adjustment": 0.019999999552965164,
+    "spring_strength_adjustment": 50
+  },
+  "version": "1.19.1.5"
+}

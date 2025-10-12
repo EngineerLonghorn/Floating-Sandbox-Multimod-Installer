@@ -1,0 +1,22 @@
+{
+  "description": "Make your ship float in an eternal abyss!",
+  "settings": {
+    "air_bubbles_density": 0,
+    "basal_wave_height_adjustment": 0,
+    "crepuscular_color": "000000",
+    "flat_land_color": "000000",
+    "flat_ocean_color": "000000",
+    "flat_sky_color": "000000",
+    "land_render_mode": 1,
+    "moonlight_color": "000000",
+    "number_of_clouds": 0,
+    "number_of_fishes": 0,
+    "number_of_stars": 0,
+    "ocean_render_detail": 0,
+    "ocean_transparency": 1,
+    "show_ship_through_ocean": true,
+    "smoke_emission_density_adjustment": 0.10000000149011612,
+    "water_contrast": 0
+  },
+  "version": "1.19.1.5"
+}

@@ -1,0 +1,27 @@
+{
+  "description": "The first version of Bandit's Realistic Preset which provides realistic settings for Floating Sandbox. At the request of Bandit, most of the simulation settings have been disabled in this copy of the preset as they may be outdated, making this version more of a visual preset as is.",
+  "settings": {
+    "air_bubbles_density": 65,
+    "air_temperature": 273.14999389648438,
+    "basal_wave_height_adjustment": 0,
+    "basal_wave_length_adjustment": 2.4560000896453857,
+    "basal_wave_speed_adjustment": 1,
+    "crepuscular_color": "ff9632",
+    "default_water_color": "0078b4",
+    "fish_shoal_radius_adjustment": 25,
+    "fish_speed_adjustment": 0.5,
+    "flat_lamp_light_color": "ffd700",
+    "flat_ocean_color": "006496",
+    "luminiscence_adjustment": 0.50199997425079346,
+    "moonlight_color": "1e283c",
+    "number_of_clouds": 125,
+    "number_of_fishes": 2056,
+    "number_of_stars": 2500,
+    "rogue_wave_rate": 0,
+    "ship_flame_size_adjustment": 0.5,
+    "storm_rate": 0,
+    "tsunami_rate": 0,
+    "water_intake_adjustment": 0.5
+  },
+  "version": "1.19.1.5"
+}

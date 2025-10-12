@@ -1,0 +1,14 @@
+{
+  "description": "Make your ship float in an ocean of metal-dissolving acid!",
+  "settings": {
+    "depth_ocean_color_start": "739753",
+    "draw_flames": false,
+    "heat_dissipation_adjustment": 20,
+    "heat_render_mode": 0,
+    "melting_temperature_adjustment": 0.69300001859664917,
+    "number_of_fishes": 0,
+    "ocean_render_mode": 1,
+    "water_temperature": 2073.14990234375
+  },
+  "version": "1.19.1.5"
+}
