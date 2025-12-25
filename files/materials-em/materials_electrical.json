@@ -1,0 +1,2721 @@
+{
+  "materials": [
+    {
+        "color_key": "#FFE010",
+	"conducts_electricity": true,
+        "electrical_type": "Lamp",
+	"external_pressure_breakage_threshold": 50190.43,
+        "heat_generated": 600.0,
+        "is_self_powered": false,
+        "light_color": "#FFFF40",
+        "light_spread": 9.0,
+        "luminiscence": 1.0,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "High Lamp Watertight",
+	"palette_coordinates": {
+		"category": "Lamps",
+		"sub_category": "Lamps",
+		"sub_category_ordinal": 0
+	},
+        "wet_failure_rate": 0.0
+    },
+    {
+        "color_key": "#FFE011",
+	"conducts_electricity": true,
+        "electrical_type": "Lamp",
+	"external_pressure_breakage_threshold": 5019.04,
+        "heat_generated": 200.0,
+        "is_self_powered": false,
+        "light_color": "#FFFF40",
+        "light_spread": 9.0,
+        "luminiscence": 1.0,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "High Lamp",
+	"palette_coordinates": {
+		"category": "Lamps",
+		"sub_category": "Lamps",
+		"sub_category_ordinal": 1
+	},
+        "wet_failure_rate": 4.5
+    },
+    {
+        "color_key": "#DFE010",
+	"conducts_electricity": true,
+        "electrical_type": "Lamp",
+	"external_pressure_breakage_threshold": 50190.43,
+        "heat_generated": 600.0,
+        "is_self_powered": false,
+        "light_color": "#FFFF40",
+        "light_spread": 5.0,
+        "luminiscence": 0.5,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "Low Lamp Watertight",
+	"palette_coordinates": {
+		"category": "Lamps",
+		"sub_category": "Lamps",
+		"sub_category_ordinal": 2
+	},
+        "wet_failure_rate": 0.0
+    },
+    {
+        "color_key": "#DFE011",
+	"conducts_electricity": true,
+        "electrical_type": "Lamp",
+	"external_pressure_breakage_threshold": 5019.04,
+        "heat_generated": 200.0,
+        "is_self_powered": false,
+        "light_color": "#FFFF40",
+        "light_spread": 5.0,
+        "luminiscence": 0.5,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "Low Lamp",
+	"palette_coordinates": {
+		"category": "Lamps",
+		"sub_category": "Lamps",
+		"sub_category_ordinal": 3
+	},
+        "wet_failure_rate": 3.0
+    },
+    {
+        "color_key": "#FFE018",
+	"conducts_electricity": true,
+        "electrical_type": "Lamp",
+	"external_pressure_breakage_threshold": 50190.43,
+        "heat_generated": 2400.0,
+        "is_self_powered": false,
+        "light_color": "#FFFF40",
+        "light_spread": 9.0,
+        "luminiscence": 1.0,
+        "maximum_operating_temperature": 698.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Heat-Resistant Lamp Watertight",
+        "palette_coordinates": {
+		"category": "Lamps",
+		"sub_category": "Lamps",
+		"sub_category_ordinal": 4
+	},
+        "wet_failure_rate": 0.0
+    },
+
+    {
+        "color_key": "#EFE010",
+	"conducts_electricity": true,
+        "electrical_type": "Lamp",
+	"external_pressure_breakage_threshold": 50190.43,
+        "heat_generated": 0.0,
+        "is_self_powered": false,
+        "light_color": "#FFFF40",
+        "light_spread": 0.0,
+        "luminiscence": 0.25,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "Porthole Watertight",
+	"palette_coordinates": {
+		"category": "Lamps",
+		"sub_category": "Portholes",
+		"sub_category_ordinal": 0
+	},
+        "wet_failure_rate": 0.0
+    },
+    {
+        "color_key": "#EFE011",
+	"conducts_electricity": true,
+        "electrical_type": "Lamp",
+	"external_pressure_breakage_threshold": 5019.04,
+        "heat_generated": 0.0,
+        "is_self_powered": false,
+        "light_color": "#FFFF40",
+        "light_spread": 0.0,
+        "luminiscence": 0.25,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "Porthole",
+        "palette_coordinates": {
+		"category": "Lamps",
+		"sub_category": "Portholes",
+		"sub_category_ordinal": 1
+	},
+        "wet_failure_rate": 3.0
+    },
+    {
+        "color_key": "#FFFF00",
+	"conducts_electricity": true,
+        "electrical_type": "Lamp",
+	"external_pressure_breakage_threshold": 50190.43,
+        "heat_generated": 600.0,
+        "is_self_powered": true,
+        "light_color": "#FFFF40",
+        "light_spread": 9.0,
+        "luminiscence": 1.0,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "Self-Powered High Lamp Watertight",
+        "palette_coordinates": {
+		"category": "Lamps",
+		"sub_category": "Self-Powered Lamps",
+		"sub_category_ordinal": 0
+	},
+        "wet_failure_rate": 0.0
+    },
+    {
+        "color_key": "#FFFF01",
+	"conducts_electricity": true,
+        "electrical_type": "Lamp",
+	"external_pressure_breakage_threshold": 5019.04,
+        "heat_generated": 200.0,
+        "is_self_powered": true,
+        "light_color": "#FFFF40",
+        "light_spread": 9.0,
+        "luminiscence": 1.0,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "Self-Powered High Lamp",
+        "palette_coordinates": {
+		"category": "Lamps",
+		"sub_category": "Self-Powered Lamps",
+		"sub_category_ordinal": 1
+	},
+        "wet_failure_rate": 4.5
+    },
+    {
+        "color_key": "#DFFF00",
+	"conducts_electricity": true,
+        "electrical_type": "Lamp",
+	"external_pressure_breakage_threshold": 50190.43,
+        "heat_generated": 600.0,
+        "is_self_powered": true,
+        "light_color": "#FFFF40",
+        "light_spread": 5.0,
+        "luminiscence": 0.5,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "Self-Powered Low Lamp Watertight",
+        "palette_coordinates": {
+		"category": "Lamps",
+		"sub_category": "Self-Powered Lamps",
+		"sub_category_ordinal": 2
+	},
+        "wet_failure_rate": 0.0
+    },
+    {
+        "color_key": "#DFFF01",
+	"conducts_electricity": true,
+        "electrical_type": "Lamp",
+	"external_pressure_breakage_threshold": 5019.04,
+        "heat_generated": 200.0,
+        "is_self_powered": true,
+        "light_color": "#FFFF40",
+        "light_spread": 5.0,
+        "luminiscence": 0.5,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "Self-Powered Low Lamp",
+        "palette_coordinates": {
+		"category": "Lamps",
+		"sub_category": "Self-Powered Lamps",
+		"sub_category_ordinal": 3
+	},
+        "wet_failure_rate": 3.0
+    },
+
+    {
+        "color_key": "#EFFF00",
+	"conducts_electricity": true,
+        "electrical_type": "Lamp",
+	"external_pressure_breakage_threshold": 50190.43,
+        "heat_generated": 0.0,
+        "is_self_powered": true,
+        "light_color": "#FFFF40",
+        "light_spread": 0.0,
+        "luminiscence": 0.25,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "Self-Powered Porthole Watertight",
+        "palette_coordinates": {
+		"category": "Lamps",
+		"sub_category": "Self-Powered Portholes",
+		"sub_category_ordinal": 0
+	},
+        "wet_failure_rate": 0.0
+    },
+    {
+        "color_key": "#EFFF01",
+	"conducts_electricity": true,
+        "electrical_type": "Lamp",
+	"external_pressure_breakage_threshold": 5019.04,
+        "heat_generated": 0.0,
+        "is_self_powered": true,
+        "light_color": "#FFFF40",
+        "light_spread": 0.0,
+        "luminiscence": 0.25,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "Self-Powered Porthole",
+       "palette_coordinates": {
+		"category": "Lamps",
+		"sub_category": "Self-Powered Portholes",
+		"sub_category_ordinal": 1
+	},
+        "wet_failure_rate": 3.0
+    },
+    {
+        "color_key": "#FC0808",
+	"conducts_electricity": true,
+        "electrical_type": "Generator",
+        "heat_generated": 9000.0,
+	"is_instanced": false,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "Non-Instanced Generator",
+        "palette_coordinates": {
+		"category": "Generators",
+		"sub_category": "Generators",
+		"sub_category_ordinal": 0
+	}
+    },
+    {
+        "color_key": "#FC1800",
+	"conducts_electricity": true,
+        "electrical_type": "Generator",
+        "heat_generated": 9000.0,
+	"is_instanced": true,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "Generator",
+        "palette_coordinates": {
+		"category": "Generators",
+		"sub_category": "Generators",
+		"sub_category_ordinal": 1
+	}
+    },
+    {
+        "color_key": "#FC1010",
+	"conducts_electricity": true,
+        "electrical_type": "Generator",
+        "heat_generated": 5000.0,
+	"is_instanced": false,
+        "maximum_operating_temperature": 698.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Heat-Resistant Generator",
+        "palette_coordinates": {
+		"category": "Generators",
+		"sub_category": "Generators",
+		"sub_category_ordinal": 2
+	}
+    },
+
+
+    {
+        "color_key": "#700000",
+	"conducts_electricity": true,
+        "electrical_type": "Cable",
+        "heat_generated": 0.0,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Electrical Cable",
+        "palette_coordinates": {
+		"category": "Cables",
+		"sub_category": "Cables",
+		"sub_category_ordinal": 0
+	}
+    },
+    {
+        "color_key": "#4C0000",
+	"conducts_electricity": true,
+        "description": "This material is here exclusively to ease development of one-layer ships; the proper way to make hull electrical structures is to provide electrical properties in the electrical layer corresponding to hull points in the structural layer.",
+        "electrical_type": "Cable",
+        "heat_generated": 0.0,
+	"is_legacy_electrical": true,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "Electrical Cable Hull"
+    },
+
+
+    {
+        "color_key": "#804000",
+	"conducts_electricity": true,
+        "electrical_type": "InteractiveSwitch",
+        "heat_generated": 0.0,
+	"interactive_switch_type": "Toggle",
+	"is_instanced": true,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Interactive Toggle Switch ON",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Interactive Switches",
+		"sub_category_ordinal": 0
+	}
+    },
+    {
+        "color_key": "#104000",
+	"conducts_electricity": false,
+        "electrical_type": "InteractiveSwitch",
+        "heat_generated": 0.0,
+	"interactive_switch_type": "Toggle",
+	"is_instanced": true,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Interactive Toggle Switch OFF",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Interactive Switches",
+		"sub_category_ordinal": 1
+	}
+    },
+
+    {
+        "color_key": "#884800",
+	"conducts_electricity": true,
+        "electrical_type": "InteractiveSwitch",
+        "heat_generated": 0.0,
+	"interactive_switch_type": "Push",
+	"is_instanced": true,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Interactive Push Switch ON",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Push Switches",
+		"sub_category_ordinal": 0
+	}
+    },
+    {
+        "color_key": "#184800",
+	"conducts_electricity": false,
+        "electrical_type": "InteractiveSwitch",
+        "heat_generated": 0.0,
+	"interactive_switch_type": "Push",
+	"is_instanced": true,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Interactive Push Switch OFF",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Push Switches",
+		"sub_category_ordinal": 1
+	}
+    },
+
+    {
+        "color_key": "#886000",
+	"conducts_electricity": true,
+        "electrical_type": "WaterSensingSwitch",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Water Sensing Switch ON",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Water Switches",
+		"sub_category_ordinal": 0
+	}
+    },
+    {
+        "color_key": "#186000",
+	"conducts_electricity": false,
+        "electrical_type": "WaterSensingSwitch",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Water Sensing Switch OFF",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Water Switches",
+		"sub_category_ordinal": 1
+	}
+    },
+
+    {
+        "color_key": "#887000",
+	"conducts_electricity": true,
+        "electrical_type": "WaterSensingSwitch",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Non-Instanced Water Sensing Switch ON",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Water Switches",
+		"sub_category_ordinal": 2
+	}
+    },
+    {
+        "color_key": "#187000",
+	"conducts_electricity": false,
+        "electrical_type": "WaterSensingSwitch",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Non-Instanced Water Sensing Switch OFF",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Water Switches",
+		"sub_category_ordinal": 3
+	}
+    },
+
+
+    {
+        "color_key": "#986000",
+	"conducts_electricity": true,
+        "electrical_type": "ThermalSwitch",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Thermal Switch ON Low",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Thermal Switches",
+		"sub_category_ordinal": 0
+	},
+	"thermal_switch_transition_temperature": 373.15
+    },
+    {
+        "color_key": "#986600",
+	"conducts_electricity": true,
+        "electrical_type": "ThermalSwitch",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Thermal Switch ON Medium",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Thermal Switches",
+		"sub_category_ordinal": 1
+	},
+	"thermal_switch_transition_temperature": 773.15
+    },
+    {
+        "color_key": "#986C00",
+	"conducts_electricity": true,
+        "electrical_type": "ThermalSwitch",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Thermal Switch ON High",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Thermal Switches",
+		"sub_category_ordinal": 2
+	},
+	"thermal_switch_transition_temperature": 1273.15
+    },
+    {
+        "color_key": "#286000",
+	"conducts_electricity": false,
+        "electrical_type": "ThermalSwitch",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Thermal Switch OFF Low",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Thermal Switches",
+		"sub_category_ordinal": 3
+	},
+	"thermal_switch_transition_temperature": 373.15
+    },
+    {
+        "color_key": "#286600",
+	"conducts_electricity": false,
+        "electrical_type": "ThermalSwitch",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Thermal Switch OFF Medium",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Thermal Switches",
+		"sub_category_ordinal": 4
+	},
+	"thermal_switch_transition_temperature": 773.15
+    },
+    {
+        "color_key": "#286C00",
+	"conducts_electricity": false,
+        "electrical_type": "ThermalSwitch",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Thermal Switch OFF High",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Thermal Switches",
+		"sub_category_ordinal": 5
+	},
+	"thermal_switch_transition_temperature": 1273.15
+    },
+
+    {
+        "color_key": "#987000",
+	"conducts_electricity": true,
+        "electrical_type": "ThermalSwitch",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Non-Instanced Thermal Switch ON Low",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Thermal Switches",
+		"sub_category_ordinal": 6
+	},
+	"thermal_switch_transition_temperature": 373.15
+    },
+    {
+        "color_key": "#987600",
+	"conducts_electricity": true,
+        "electrical_type": "ThermalSwitch",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Non-Instanced Thermal Switch ON Medium",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Thermal Switches",
+		"sub_category_ordinal": 7
+	}
+	,
+	"thermal_switch_transition_temperature": 773.15
+    },
+    {
+        "color_key": "#987C00",
+	"conducts_electricity": true,
+        "electrical_type": "ThermalSwitch",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Non-Instanced Thermal Switch ON High",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Thermal Switches",
+		"sub_category_ordinal": 8
+	}
+	,
+	"thermal_switch_transition_temperature": 1273.15
+    },
+
+    {
+        "color_key": "#287000",
+	"conducts_electricity": false,
+        "electrical_type": "ThermalSwitch",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Non-Instanced Thermal Switch OFF Low",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Thermal Switches",
+		"sub_category_ordinal": 9
+	},
+	"thermal_switch_transition_temperature": 373.15
+    },
+    {
+        "color_key": "#287600",
+	"conducts_electricity": false,
+        "electrical_type": "ThermalSwitch",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Non-Instanced Thermal Switch OFF Medium",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Thermal Switches",
+		"sub_category_ordinal": 10
+	},
+	"thermal_switch_transition_temperature": 773.15
+    },
+    {
+        "color_key": "#287C00",
+	"conducts_electricity": false,
+        "electrical_type": "ThermalSwitch",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Non-Instanced Thermal Switch OFF High",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Thermal Switches",
+		"sub_category_ordinal": 11
+	},
+	"thermal_switch_transition_temperature": 1273.15
+    },
+
+
+    {
+        "color_key": "#887022",
+	"conducts_electricity": true,
+        "electrical_type": "TimerSwitch",
+	"gate_state": true,
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Timed Switch ON 1s",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Timed Switches",
+		"sub_category_ordinal": 0
+	},
+	"timer_duration": 1.0
+    },
+    {
+        "color_key": "#887024",
+	"conducts_electricity": true,
+        "electrical_type": "TimerSwitch",
+	"gate_state": true,
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Timed Switch ON 3s",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Timed Switches",
+		"sub_category_ordinal": 1
+	},
+	"timer_duration": 3.0
+    },
+    {
+        "color_key": "#887026",
+	"conducts_electricity": true,
+        "electrical_type": "TimerSwitch",
+	"gate_state": true,
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Timed Switch ON 5s",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Timed Switches",
+		"sub_category_ordinal": 2
+	},
+	"timer_duration": 5.0
+    },
+    {
+        "color_key": "#887028",
+	"conducts_electricity": true,
+        "electrical_type": "TimerSwitch",
+	"gate_state": true,
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Timed Switch ON 10s",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Timed Switches",
+		"sub_category_ordinal": 3
+	},
+	"timer_duration": 10.0
+    },
+
+    {
+        "color_key": "#187022",
+	"conducts_electricity": true,
+        "electrical_type": "TimerSwitch",
+	"gate_state": false,
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Timed Switch OFF 1s",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Timed Switches",
+		"sub_category_ordinal": 4
+	},
+	"timer_duration": 1.0
+    },
+    {
+        "color_key": "#187024",
+	"conducts_electricity": true,
+        "electrical_type": "TimerSwitch",
+	"gate_state": false,
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Timed Switch OFF 3s",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Timed Switches",
+		"sub_category_ordinal": 5
+	},
+	"timer_duration": 3.0
+    },
+    {
+        "color_key": "#187026",
+	"conducts_electricity": true,
+        "electrical_type": "TimerSwitch",
+	"gate_state": false,
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Timed Switch OFF 5s",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Timed Switches",
+		"sub_category_ordinal": 6
+	},
+	"timer_duration": 5.0
+    },
+    {
+        "color_key": "#187028",
+	"conducts_electricity": true,
+        "electrical_type": "TimerSwitch",
+	"gate_state": false,
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Timed Switch OFF 10s",
+        "palette_coordinates": {
+		"category": "Switches",
+		"sub_category": "Timed Switches",
+		"sub_category_ordinal": 7
+	},
+	"timer_duration": 10.0
+    },
+
+
+    {
+        "color_key": "#30E000",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0.0,
+	"engine_power": 50.0,
+	"engine_responsiveness": 0.4,
+	"engine_type": "Outboard",
+        "heat_generated": 2000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "50HP Outboard Engine R/L",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Outboard Engines",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#30E100",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0.0,
+	"engine_power": 130.0,
+	"engine_responsiveness": 0.4,
+	"engine_type": "Outboard",
+        "heat_generated": 2000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "130HP Outboard Engine R/L",
+        "palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Outboard Engines",
+		"sub_category_ordinal": 1
+	}
+    },
+
+    {
+        "color_key": "#30E500",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0.0,
+	"engine_power": 230.0,
+	"engine_responsiveness": 0.4,
+	"engine_type": "Outboard",
+        "heat_generated": 2000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "230HP Outboard Engine R/L",
+        "palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Outboard Engines",
+		"sub_category_ordinal": 2
+	}
+    },
+
+    {
+        "color_key": "#30E700",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0.0,
+	"engine_power": 400.0,
+	"engine_responsiveness": 0.3,
+	"engine_type": "Outboard",
+        "heat_generated": 3000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "400HP Outboard Engine R/L",
+        "palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Outboard Engines",
+		"sub_category_ordinal": 3
+	}
+    },
+
+    {
+        "color_key": "#30E800",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0.0,
+	"engine_power": 600.0,
+	"engine_responsiveness": 0.07,
+	"engine_type": "Outboard",
+        "heat_generated": 4000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "600HP Outboard Engine R/L",
+        "palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Outboard Engines",
+		"sub_category_ordinal": 4
+	}
+    },
+    {
+        "color_key": "#30E900",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0,
+	"engine_power": 1000.0,
+	"engine_responsiveness": 0.04,
+	"engine_type": "Outboard",
+        "heat_generated": 4000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "1000HP Outboard Engine R/L",
+        "palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Outboard Engines",
+		"sub_category_ordinal": 5
+	}
+    },
+    {
+        "color_key": "#31EA00",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 1.570796327,
+	"engine_power": 50.0,
+	"engine_responsiveness": 0.04,
+	"engine_type": "Outboard",
+        "heat_generated": 2000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "50HP Outboard Engine U/D",
+        "palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Outboard Engines",
+		"sub_category_ordinal": 6
+	}
+    },
+    {
+        "color_key": "#30EA00",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 1.570796327,
+	"engine_power": 1000.0,
+	"engine_responsiveness": 0.04,
+	"engine_type": "Outboard",
+        "heat_generated": 4000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "600HP Outboard Engine U/D",
+        "palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Outboard Engines",
+		"sub_category_ordinal": 7
+	}
+    },
+
+
+
+    {
+        "color_key": "#26e0e0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 1.570796327,
+	"engine_power": 50.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 20000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "50HP Jet Engine Up",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines U",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#26e1e1",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 1.570796327,
+	"engine_power": 200.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 25000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "200HP Jet Engine Up",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines U",
+		"sub_category_ordinal": 1
+	}
+    },
+
+    {
+        "color_key": "#26e2e2",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 1.570796327,
+	"engine_power": 1000.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 30000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "1000HP Jet Engine Up",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines U",
+		"sub_category_ordinal": 2
+	}
+    },
+
+    {
+        "color_key": "#26e3e3",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 1.570796327,
+	"engine_power": 3000.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 35000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "3000HP Jet Engine Up",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines U",
+		"sub_category_ordinal": 3
+	}
+    },
+
+    {
+        "color_key": "#26f0f0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 1.570796327,
+	"engine_power": 8000.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 40000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "8000HP Jet Engine Up",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines U",
+		"sub_category_ordinal": 4
+	}
+    },
+
+
+    {
+        "color_key": "#27e0e0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": -1.570796327,
+	"engine_power": 50.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 20000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "50HP Jet Engine Down",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines D",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#27e1e1",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": -1.570796327,
+	"engine_power": 200.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 25000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "200HP Jet Engine Down",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines D",
+		"sub_category_ordinal": 1
+	}
+    },
+
+    {
+        "color_key": "#27e2e2",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": -1.570796327,
+	"engine_power": 1000.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 30000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "1000HP Jet Engine Down",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines D",
+		"sub_category_ordinal": 2
+	}
+    },
+
+    {
+        "color_key": "#27e3e3",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": -1.570796327,
+	"engine_power": 3000.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 35000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "3000HP Jet Engine Down",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines D",
+		"sub_category_ordinal": 3
+	}
+    },
+
+    {
+        "color_key": "#27f0f0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": -1.570796327,
+	"engine_power": 8000.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 40000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "8000HP Jet Engine Down",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines D",
+		"sub_category_ordinal": 4
+	}
+    },
+
+
+
+
+    {
+        "color_key": "#28e0e0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 3.141592653,
+	"engine_power": 50.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 20000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "50HP Jet Engine Left",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines L",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#28e1e1",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 3.141592653,
+	"engine_power": 200.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 25000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "200HP Jet Engine Left",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines L",
+		"sub_category_ordinal": 1
+	}
+    },
+
+    {
+        "color_key": "#28e2e2",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 3.141592653,
+	"engine_power": 1000.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 30000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "1000HP Jet Engine Left",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines L",
+		"sub_category_ordinal": 2
+	}
+    },
+
+    {
+        "color_key": "#28e3e3",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 3.141592653,
+	"engine_power": 3000.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 35000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "3000HP Jet Engine Left",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines L",
+		"sub_category_ordinal": 3
+	}
+    },
+
+    {
+        "color_key": "#28f0f0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 3.141592653,
+	"engine_power": 8000.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 40000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "8000HP Jet Engine Left",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines L",
+		"sub_category_ordinal": 4
+	}
+    },
+
+
+    {
+        "color_key": "#29e0e0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0.0,
+	"engine_power": 50.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 20000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "50HP Jet Engine Right",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines R",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#29e1e1",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0.0,
+	"engine_power": 200.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 25000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "200HP Jet Engine Right",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines R",
+		"sub_category_ordinal": 1
+	}
+    },
+
+    {
+        "color_key": "#29e2e2",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0.0,
+	"engine_power": 1000.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 30000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "1000HP Jet Engine Right",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines R",
+		"sub_category_ordinal": 2
+	}
+    },
+
+    {
+        "color_key": "#29e3e3",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0.0,
+	"engine_power": 3000.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 35000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "3000HP Jet Engine Right",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines R",
+		"sub_category_ordinal": 3
+	}
+    },
+
+    {
+        "color_key": "#29f0f0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0.0,
+	"engine_power": 8000.0,
+	"engine_responsiveness": 0.1,
+	"engine_type": "Jet",
+        "heat_generated": 40000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "8000HP Jet Engine Right",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engines R",
+		"sub_category_ordinal": 4
+	}
+    },
+
+
+
+
+
+
+
+
+    {
+        "color_key": "#2ae0e0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 1.570796327,
+	"engine_power": 100.0,
+	"engine_responsiveness": 0.17,
+	"engine_type": "Jet",
+        "heat_generated": 30000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "100HP Jet Thrust Up",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Thrust Engines U",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#2ae1e0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 1.570796327,
+	"engine_power": 1000.0,
+	"engine_responsiveness": 0.17,
+	"engine_type": "Jet",
+        "heat_generated": 40000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "1000HP Jet Thrust Up",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Thrust Engines U",
+		"sub_category_ordinal": 1
+	}
+    },
+
+    {
+        "color_key": "#2ae2e0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 1.570796327,
+	"engine_power": 5000.0,
+	"engine_responsiveness": 0.17,
+	"engine_type": "Jet",
+        "heat_generated": 50000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "5000HP Jet Thrust Up",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Thrust Engines U",
+		"sub_category_ordinal": 2
+	}
+    },
+
+    {
+        "color_key": "#2ae4e0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": -1.570796327,
+	"engine_power": 100.0,
+	"engine_responsiveness": 0.17,
+	"engine_type": "Jet",
+        "heat_generated": 30000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "100HP Jet Thrust Down",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Thrust Engines D",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#2ae5e0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": -1.570796327,
+	"engine_power": 1000.0,
+	"engine_responsiveness": 0.17,
+	"engine_type": "Jet",
+        "heat_generated": 40000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "1000HP Jet Thrust Down",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Thrust Engines D",
+		"sub_category_ordinal": 1
+	}
+    },
+
+    {
+        "color_key": "#2ae6e0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": -1.570796327,
+	"engine_power": 5000.0,
+	"engine_responsiveness": 0.17,
+	"engine_type": "Jet",
+        "heat_generated": 50000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "5000HP Jet Thrust Down",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Thrust Engines D",
+		"sub_category_ordinal": 2
+	}
+    },
+
+    {
+        "color_key": "#2ae8e0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 3.141592653,
+	"engine_power": 100.0,
+	"engine_responsiveness": 0.17,
+	"engine_type": "Jet",
+        "heat_generated": 30000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "100HP Jet Thrust Left",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Thrust Engines L",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#2ae9e0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 3.141592653,
+	"engine_power": 1000.0,
+	"engine_responsiveness": 0.17,
+	"engine_type": "Jet",
+        "heat_generated": 40000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "1000HP Jet Thrust Left",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Thrust Engines L",
+		"sub_category_ordinal": 1
+	}
+    },
+
+    {
+        "color_key": "#2aeae0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 3.141592653,
+	"engine_power": 5000.0,
+	"engine_responsiveness": 0.17,
+	"engine_type": "Jet",
+        "heat_generated": 50000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "5000HP Jet Thrust Left",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Thrust Engines L",
+		"sub_category_ordinal": 2
+	}
+    },
+
+    {
+        "color_key": "#2aece0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0.0,
+	"engine_power": 100.0,
+	"engine_responsiveness": 0.17,
+	"engine_type": "Jet",
+        "heat_generated": 30000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "100HP Jet Thrust Right",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Thrust Engines R",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#2aede0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0.0,
+	"engine_power": 1000.0,
+	"engine_responsiveness": 0.17,
+	"engine_type": "Jet",
+        "heat_generated": 40000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "1000HP Jet Thrust Right",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Thrust Engines R",
+		"sub_category_ordinal": 1
+	}
+    },
+
+    {
+        "color_key": "#2aeee0",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0.0,
+	"engine_power": 5000.0,
+	"engine_responsiveness": 0.17,
+	"engine_type": "Jet",
+        "heat_generated": 50000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "5000HP Jet Thrust Right",
+	"palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Thrust Engines R",
+		"sub_category_ordinal": 2
+	}
+    },
+
+
+
+
+
+
+
+    {
+        "color_key": "#30D000",
+	"conducts_electricity": true,
+        "electrical_type": "EngineController",
+	"engine_controller_type": "Telegraph",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Engine Telegraph Controller",
+        "palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Propeller Engine Controllers",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#30C000",
+	"conducts_electricity": true,
+        "electrical_type": "EngineController",
+	"engine_controller_type": "JetThrottle",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Jet Engine Throttle Controller",
+        "palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engine Controllers",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#30F000",
+	"conducts_electricity": true,
+        "electrical_type": "EngineController",
+	"engine_controller_type": "JetThrust",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Jet Engine Thrust Controller",
+        "palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Jet Engine Controllers",
+		"sub_category_ordinal": 1
+	}
+    },
+
+
+
+    {
+        "color_key": "#30EB00",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0.0,
+	"engine_power": 1000.0,
+	"engine_responsiveness": 0.021,
+	"engine_type": "Diesel",
+        "heat_generated": 20000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "1000HP Diesel Engine R/L",
+        "palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Diesel Engines",
+		"sub_category_ordinal": 0
+	}
+    },
+    {
+        "color_key": "#30EC00",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0.0,
+	"engine_power": 2000.0,
+	"engine_responsiveness": 0.023,
+	"engine_type": "Diesel",
+        "heat_generated": 30000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "2000HP Diesel Engine R/L",
+        "palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Diesel Engines",
+		"sub_category_ordinal": 1
+	}
+    },
+    {
+        "color_key": "#30ED00",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0.0,
+	"engine_power": 6000.0,
+	"engine_responsiveness": 0.018,
+	"engine_type": "Diesel",
+        "heat_generated": 40000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "6000HP Diesel Engine R/L",
+        "palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Diesel Engines",
+		"sub_category_ordinal": 2
+	}
+    },
+
+    {
+        "color_key": "#30E600",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0.0,
+	"engine_power": 550.0,
+	"engine_responsiveness": 0.024,
+	"engine_type": "Steam",
+        "heat_generated": 20000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "550HP Steam Engine R/L",
+        "palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Steam Engines",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#30E200",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0.0,
+	"engine_power": 1300.0,
+	"engine_responsiveness": 0.02,
+	"engine_type": "Steam",
+        "heat_generated": 30000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "1300HP Steam Engine R/L",
+        "palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Steam Engines",
+		"sub_category_ordinal": 1
+	}
+    },
+
+    {
+        "color_key": "#30E300",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 1.570796327,
+	"engine_power": 1300.0,
+	"engine_responsiveness": 0.02,
+	"engine_type": "Steam",
+        "heat_generated": 30000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "1300HP Steam Engine U/D",
+        "palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Steam Engines",
+		"sub_category_ordinal": 2
+	}
+    },
+
+    {
+        "color_key": "#30E400",
+	"conducts_electricity": false,
+        "electrical_type": "Engine",
+	"engine_direction": 0.0,
+	"engine_power": 4000.0,
+	"engine_responsiveness": 0.005,
+	"engine_type": "Steam",
+        "heat_generated": 40000.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "4000HP Steam Engine R/L",
+        "palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Steam Engines",
+		"sub_category_ordinal": 3
+	}
+    },
+
+
+    {
+        "color_key": "#00704e",
+	"conducts_electricity": true,
+        "electrical_type": "EngineTransmission",
+        "heat_generated": 0.0,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Engine Transmission",
+        "palette_coordinates": {
+		"category": "Engines",
+		"sub_category": "Engine Transmissions",
+		"sub_category_ordinal": 0
+	}
+    },
+
+
+
+    {
+        "color_key": "#409000",
+	"conducts_electricity": false,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Queen Mary Horn",
+	"ship_sound_type": "QueenMaryHorn",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Horns",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#409100",
+	"conducts_electricity": false,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Four Funnel Liner Whistle",
+	"ship_sound_type": "FourFunnelLinerWhistle",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Horns",
+		"sub_category_ordinal": 1
+	}
+    },
+
+    {
+        "color_key": "#409200",
+	"conducts_electricity": false,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Tripod Horn",
+	"ship_sound_type": "TripodHorn",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Horns",
+		"sub_category_ordinal": 2
+	}
+    },
+
+    {
+        "color_key": "#409300",
+	"conducts_electricity": false,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Pipe Whistle",
+	"ship_sound_type": "PipeWhistle",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Horns",
+		"sub_category_ordinal": 3
+	}
+    },
+
+    {
+        "color_key": "#409400",
+	"conducts_electricity": false,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Lake Freighter Horn",
+	"ship_sound_type": "LakeFreighterHorn",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Horns",
+		"sub_category_ordinal": 4
+	}
+    },
+
+    {
+        "color_key": "#409500",
+	"conducts_electricity": false,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Shieldhall Steam Siren",
+	"ship_sound_type": "ShieldhallSteamSiren",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Horns",
+		"sub_category_ordinal": 5
+	}
+    },
+
+    {
+        "color_key": "#409600",
+	"conducts_electricity": false,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Queen Elizabeth 2 Horn",
+	"ship_sound_type": "QueenElizabeth2Horn",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Horns",
+		"sub_category_ordinal": 6
+	}
+    },
+
+    {
+        "color_key": "#409700",
+	"conducts_electricity": false,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "S.S. Rex Whistle",
+	"ship_sound_type": "SSRexWhistle",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Horns",
+		"sub_category_ordinal": 7
+	}
+    },
+
+    {
+        "color_key": "#40A000",
+	"conducts_electricity": false,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Bell 1",
+	"ship_sound_type": "Bell1",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Bells",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#40A100",
+	"conducts_electricity": false,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Bell 2",
+	"ship_sound_type": "Bell2",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Bells",
+		"sub_category_ordinal": 1
+	}
+    },
+
+    {
+        "color_key": "#40B000",
+	"conducts_electricity": false,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Klaxon 1",
+	"ship_sound_type": "Klaxon1",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Klaxons",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#40C000",
+	"conducts_electricity": false,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Nuclear Alarm",
+	"ship_sound_type": "NuclearAlarm1",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Alarms",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#40C100",
+	"conducts_electricity": false,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Evacuation Alarm 1",
+	"ship_sound_type": "EvacuationAlarm1",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Alarms",
+		"sub_category_ordinal": 1
+	}
+    },
+
+    {
+        "color_key": "#40C200",
+	"conducts_electricity": false,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Evacuation Alarm 2",
+	"ship_sound_type": "EvacuationAlarm2",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Alarms",
+		"sub_category_ordinal": 2
+	}
+    },
+
+
+
+
+    {
+        "color_key": "#429000",
+	"conducts_electricity": true,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Automatic Queen Mary Horn",
+	"ship_sound_type": "QueenMaryHorn",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Automatic Horns",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#429100",
+	"conducts_electricity": true,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Automatic Four Funnel Liner Whistle",
+	"ship_sound_type": "FourFunnelLinerWhistle",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Automatic Horns",
+		"sub_category_ordinal": 1
+	}
+    },
+
+    {
+        "color_key": "#429200",
+	"conducts_electricity": true,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Automatic Tripod Horn",
+	"ship_sound_type": "TripodHorn",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Automatic Horns",
+		"sub_category_ordinal": 2
+	}
+    },
+
+    {
+        "color_key": "#429300",
+	"conducts_electricity": true,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Automatic Pipe Whistle",
+	"ship_sound_type": "PipeWhistle",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Automatic Horns",
+		"sub_category_ordinal": 3
+	}
+    },
+
+    {
+        "color_key": "#429400",
+	"conducts_electricity": true,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Automatic Lake Freighter Horn",
+	"ship_sound_type": "LakeFreighterHorn",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Automatic Horns",
+		"sub_category_ordinal": 4
+	}
+    },
+
+    {
+        "color_key": "#429500",
+	"conducts_electricity": true,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Automatic Shieldhall Steam Siren",
+	"ship_sound_type": "ShieldhallSteamSiren",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Automatic Horns",
+		"sub_category_ordinal": 5
+	}
+    },
+
+    {
+        "color_key": "#429600",
+	"conducts_electricity": true,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Automatic Queen Elizabeth 2 Horn",
+	"ship_sound_type": "QueenElizabeth2Horn",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Automatic Horns",
+		"sub_category_ordinal": 6
+	}
+    },
+
+    {
+        "color_key": "#429700",
+	"conducts_electricity": true,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Automatic S.S. Rex Whistle",
+	"ship_sound_type": "SSRexWhistle",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Automatic Horns",
+		"sub_category_ordinal": 7
+	}
+    },
+
+    {
+        "color_key": "#42A000",
+	"conducts_electricity": true,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Automatic Bell 1",
+	"ship_sound_type": "Bell1",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Automatic Bells",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#42A100",
+	"conducts_electricity": true,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Automatic Bell 2",
+	"ship_sound_type": "Bell2",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Automatic Bells",
+		"sub_category_ordinal": 1
+	}
+    },
+
+    {
+        "color_key": "#42B000",
+	"conducts_electricity": true,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Automatic Klaxon 1",
+	"ship_sound_type": "Klaxon1",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Automatic Klaxons",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#42C000",
+	"conducts_electricity": true,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Automatic Nuclear Alarm",
+	"ship_sound_type": "NuclearAlarm1",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Automatic Alarms",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#42C100",
+	"conducts_electricity": true,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Automatic Evacuation Alarm 1",
+	"ship_sound_type": "EvacuationAlarm1",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Automatic Alarms",
+		"sub_category_ordinal": 1
+	}
+    },
+
+    {
+        "color_key": "#42C200",
+	"conducts_electricity": true,
+        "electrical_type": "ShipSound",
+        "heat_generated": 0.0,
+	"is_instanced": false,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Automatic Evacuation Alarm 2",
+	"ship_sound_type": "EvacuationAlarm2",
+        "palette_coordinates": {
+		"category": "Sounds",
+		"sub_category": "Automatic Alarms",
+		"sub_category_ordinal": 2
+	}
+    },
+
+    {
+        "color_key": "#FC2020",
+	"conducts_electricity": true,
+        "electrical_type": "OtherSink",
+        "heat_generated": 100000.0,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Heating Element 100KW",
+        "palette_coordinates": {
+		"category": "Other Elements",
+		"sub_category": "Heating Elements",
+		"sub_category_ordinal": 0
+	}
+    },
+    {
+        "color_key": "#FC2828",
+	"conducts_electricity": true,
+        "electrical_type": "OtherSink",
+        "heat_generated": 2500000.0,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Heating Element 2.5MW",
+        "palette_coordinates": {
+		"category": "Other Elements",
+		"sub_category": "Heating Elements",
+		"sub_category_ordinal": 1
+	}
+    },
+    {
+        "color_key": "#FC3030",
+	"conducts_electricity": true,
+        "electrical_type": "OtherSink",
+        "heat_generated": 10000000.0,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Heating Element 10MW",
+        "palette_coordinates": {
+		"category": "Other Elements",
+		"sub_category": "Heating Elements",
+		"sub_category_ordinal": 2
+	}
+	},
+	{
+        "color_key": "#FC4040",
+	"conducts_electricity": true,
+        "electrical_type": "OtherSink",
+        "heat_generated": 10000000000.0,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Heating Element 10GW (Modded)",
+        "palette_coordinates": {
+		"category": "Other Elements",
+		"sub_category": "Heating Elements",
+		"sub_category_ordinal": 3
+	}
+	},
+    {
+        "color_key": "#2095FC",
+	"conducts_electricity": true,
+        "electrical_type": "OtherSink",
+        "heat_generated": -100000000.0,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Cooling Element -100MW (Modded)",
+        "palette_coordinates": {
+		"category": "Other Elements",
+		"sub_category": "Cooling Elements",
+		"sub_category_ordinal": 0
+	}
+    },
+    {
+        "color_key": "#20AFFC",
+	"conducts_electricity": true,
+        "electrical_type": "OtherSink",
+        "heat_generated": -10000000000.0,
+        "maximum_operating_temperature": 1783.15,
+        "minimum_operating_temperature": 173.15,
+        "name": "Cooling Element -10GW (Modded)",
+        "palette_coordinates": {
+		"category": "Other Elements",
+		"sub_category": "Cooling Elements",
+		"sub_category_ordinal": 1
+	}
+	
+    },
+
+    {
+        "color_key": "#209010",
+	"conducts_electricity": true,
+        "electrical_type": "SmokeEmitter",
+        "heat_generated": 2000.0,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Smoke Emitter",
+	"particle_emission_rate": 0.05,
+        "palette_coordinates": {
+		"category": "Other Elements",
+		"sub_category": "Smoke Emitters",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#30A000",
+	"conducts_electricity": true,
+        "electrical_type": "PowerMonitor",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 1000000.0,
+        "minimum_operating_temperature": 0.0,
+        "name": "Power Monitor",
+        "palette_coordinates": {
+		"category": "Other Elements",
+		"sub_category": "Power Monitors",
+		"sub_category_ordinal": 0
+	}
+    },
+
+    {
+        "color_key": "#3C3D00",
+	"conducts_electricity": true,
+        "electrical_type": "WaterPump",
+        "heat_generated": 300.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "Water Pump In",
+        "palette_coordinates": {
+		"category": "Other Elements",
+		"sub_category": "Water Pumps",
+		"sub_category_ordinal": 0
+	},
+	"water_pump_nominal_force": 3.0
+    },
+
+    {
+        "color_key": "#3D3C00",
+	"conducts_electricity": true,
+        "electrical_type": "WaterPump",
+        "heat_generated": 300.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "Water Pump Out",
+        "palette_coordinates": {
+		"category": "Other Elements",
+		"sub_category": "Water Pumps",
+		"sub_category_ordinal": 1
+	},
+	"water_pump_nominal_force": -3.0
+    },
+
+    {
+        "color_key": "#3C3E00",
+	"conducts_electricity": true,
+        "electrical_type": "WaterPump",
+        "heat_generated": 300.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "Water Pump In 10x (Modded)",
+        "palette_coordinates": {
+		"category": "Other Elements",
+		"sub_category": "Water Pumps",
+		"sub_category_ordinal": 2
+	},
+	"water_pump_nominal_force": 30.0
+    },
+
+    {
+        "color_key": "#313C00",
+	"conducts_electricity": true,
+        "electrical_type": "WaterPump",
+        "heat_generated": 300.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "Water Pump Out 10x (Modded)",
+        "palette_coordinates": {
+		"category": "Other Elements",
+		"sub_category": "Water Pumps",
+		"sub_category_ordinal": 3
+	},
+	"water_pump_nominal_force": -30.0
+    },
+	
+    {
+        "color_key": "#242400",
+	"conducts_electricity": true,
+        "electrical_type": "WatertightDoor",
+        "heat_generated": 0.0,
+	"is_instanced": true,
+        "is_self_powered": false,
+        "maximum_operating_temperature": 398.15,
+        "minimum_operating_temperature": 233.15,
+        "name": "Watertight Door",
+        "palette_coordinates": {
+		"category": "Other Elements",
+		"sub_category": "Watertight Doors",
+		"sub_category_ordinal": 0
+	}
+    }
+  ],
+
+  "palettes": {
+	"electrical_palette": [
+	    {
+		"category": "Generators",
+		"groups":[
+			{
+				"name": "Generators",
+				"sub_categories": [
+					"Generators"]
+			}
+		]
+	    },
+	    {
+		"category": "Cables",
+		"groups":[
+			{
+				"name": "Cables",
+				"sub_categories": [
+					"Cables"]
+			}
+		]
+
+	    },
+	    {
+		"category": "Switches",
+		"groups":[
+			{
+				"name": "Switches",
+				"sub_categories": [
+					"Interactive Switches",
+					"Push Switches",
+					"Timed Switches",
+					"Thermal Switches",
+					"Water Switches"]
+			}
+		]
+	    },
+	    {
+		"category": "Lamps",
+		"groups":[
+			{
+				"name": "Lamps",
+				"sub_categories": [
+					"Lamps",
+					"Self-Powered Lamps"]
+			},
+			{
+				"name": "Portholes",
+				"sub_categories": [
+					"Portholes",
+					"Self-Powered Portholes"]
+			}
+		]
+	    },
+	    {
+		"category": "Engines",
+		"groups":[
+			{
+				"name": "Propeller Engines",
+				"sub_categories": [
+					"Outboard Engines",
+					"Diesel Engines",
+					"Steam Engines",
+					"Propeller Engine Controllers"]
+			},
+			{
+				"name": "Jet Engines",
+				"sub_categories": [
+					"Jet Engines U",
+					"Jet Engines D",
+					"Jet Engines L",
+					"Jet Engines R",
+					"Jet Thrust Engines U",
+					"Jet Thrust Engines D",
+					"Jet Thrust Engines L",
+					"Jet Thrust Engines R",
+					"Jet Engine Controllers"]
+			},
+			{
+				"name": "Misc",
+				"sub_categories": [
+					"Engine Transmissions"]
+			}
+		]
+	    },
+	    {
+		"category": "Sounds",
+		"groups":[
+			{
+				"name": "Switched Sounds",
+				"sub_categories": [
+					"Horns",
+					"Bells",
+					"Klaxons",
+					"Alarms"]
+			},
+			{
+				"name": "Automatic Sounds",
+				"sub_categories": [
+					"Automatic Horns",
+					"Automatic Bells",
+					"Automatic Klaxons",
+					"Automatic Alarms"]
+			}
+		]
+	    },
+	    {
+		"category": "Other Elements",
+		"groups":[
+			{
+				"name": "Other Elements",
+				"sub_categories": [
+					"Heating Elements",
+					"Cooling Elements",
+					"Smoke Emitters",
+					"Power Monitors",
+					"Water Pumps",
+					"Watertight Doors"]
+			}
+		]
+	    }
+	]
+   }
+}
