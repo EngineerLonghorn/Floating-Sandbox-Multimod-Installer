@@ -1,15 +1,8 @@
-# Floating Sandbox Multimod Installer v2
+# Floating Sandbox Multimod Installer v2.2
 
 **CHANGES:**
 
-- Revamped the installer to merge the installer & uninstaller, add some graphical elements, add an information page, etc.
-- Updated Extra Materials v3.1 to v4
-- Added Charlemagne Antimatter Bomb Mod
-- Added Laser Kiwi Laser Cannon Mod
-	- This & the Charlemagne Antimatter Bomb Mod were two mods I did during the development of the new update for the Multimod Installer.
-- Added Longhorn's Preset Pack
-	- Includes the Acid Waters Preset, Void Preset, Absolute Jelly Preset, and the Default Floating Sandbox 1.19.1 Settings Preset.
-- Added Bandit's Realistic Preset
-- Added Extra Materials v4 Splash Screens
+- Updated Extra Materials v4 to v4.2, as to be compatible with Floating Sandbox 1.19.2.
+- Added a wintry-themed version of the EMv4 sunset splash screen.
 
 Enjoy!
