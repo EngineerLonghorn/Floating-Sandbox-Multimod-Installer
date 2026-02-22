@@ -1,8 +1,8 @@
-# Floating Sandbox Multimod Installer v2.2
+# Floating Sandbox Multimod Installer v2.3
 
 **CHANGES:**
 
-- Updated Extra Materials v4 to v4.2, as to be compatible with Floating Sandbox 1.19.2.
-- Added a wintry-themed version of the EMv4 sunset splash screen.
+- Updated Extra Materials v4.2 to v4.3, adding 75%, 50%, 25%, 0% opacity ropes.
 
 Enjoy!
+
