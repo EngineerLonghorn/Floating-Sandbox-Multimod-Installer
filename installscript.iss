@@ -32,9 +32,6 @@ Name: "materials"; Description: "Materials";
 Name: "materials\fs"; Description: "Default Floating Sandbox Materials"; Flags: exclusive; Types: fullvanilla
 Name: "materials\em"; Description: "Extra Materials Mod v4.4"; Flags: exclusive; Types: fullmodded
 Name: "materials\tapeman"; Description: "Tapeman's Material Textures Mod"; Types: fullmodded
-Name: "smoke"; Description: "Smoke"; 
-Name: "smoke\fs"; Description: "Default Floating Sandbox Smoke"; Flags: exclusive; Types: fullvanilla
-Name: "smoke\mia"; Description: "Mia's Black Smoke Mod"; Flags: exclusive; Types: fullmodded
 Name: "antimatter"; Description: "Antimatter Bomb"; 
 Name: "antimatter\fs"; Description: "Default Floating Sandbox Antimatter Bomb"; Flags: exclusive; Types: fullvanilla
 Name: "antimatter\charlemagne"; Description: "Charlemagne Antimatter Mod"; Flags: exclusive; Types: fullmodded
@@ -69,10 +66,6 @@ Source: "files\materials-fs\materials_electrical.json"; DestDir: "{app}\Data\Mis
 Source: "files\materials-fs\materials_structural_template.png"; DestDir: "{app}\Guides"; Components: "materials\fs"
 ; Tapeman's Material Textures Mod
 Source: "files\materials-tapeman\*"; DestDir: "{app}\Data\Textures\Material"; Components: "materials\tapeman"; Flags: recursesubdirs createallsubdirs
-; Mia's Black Smoke Mod
-Source: "files\smoke-mia\GenericMipMappedTexture\*"; DestDir: "{app}\Data\Textures\GenericMipMappedTexture"; Components: "smoke\mia"; Flags: recursesubdirs createallsubdirs
-; Defaulting Floating Sandbox Smoke
-Source: "files\smoke-fs\GenericMipMappedTexture\*"; DestDir: "{app}\Data\Textures\GenericMipMappedTexture"; Components: "smoke\fs"; Flags: recursesubdirs createallsubdirs
 ; Kiwi Laser Cannon
 Source: "files\lasercannon-kiwi\Resources\*"; DestDir: "{app}\Data\Resources"; Components: "lasercannon\kiwi"; Flags: recursesubdirs createallsubdirs
 Source: "files\lasercannon-kiwi\Shaders\Game\*"; DestDir: "{app}\Data\Shaders\Game"; Components: "lasercannon\kiwi"; Flags: recursesubdirs createallsubdirs
