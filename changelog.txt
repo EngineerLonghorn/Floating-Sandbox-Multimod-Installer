@@ -1,0 +1,7 @@
+# Floating Sandbox Multimod Installer v2.4
+
+**CHANGES:**
+
+- Updated Extra Materials v4.3 to v4.4, adding Alternate Nails & 1.20 materials for compatibility.
+
+Enjoy!
