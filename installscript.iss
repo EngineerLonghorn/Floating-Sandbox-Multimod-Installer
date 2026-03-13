@@ -1,11 +1,11 @@
 #define AppName "Floating Sandbox Designer's Studio Mods"
-#define AppVersion "v2.4"
+#define AppVersion "v2.5"
 #define AppPublisher "Longhorn"
-#define MyAppExeName "Floating Sandbox Multimod Installer v2.4.exe"
+#define MyAppExeName "Floating Sandbox Multimod Installer v2.5.exe"
 #define DefDir 
 
 [Setup]
-AppName=Floating Sandbox Multimod Installer v2.4
+AppName=Floating Sandbox Multimod Installer v2.5
 AppVersion={#AppVersion}
 AppVerName=Floating Sandbox Designer's Studio Mods
 WizardStyle=classic
@@ -38,6 +38,9 @@ Name: "antimatter\charlemagne"; Description: "Charlemagne Antimatter Mod"; Flags
 Name: "lasercannon"; Description: "Laser Cannon"; 
 Name: "lasercannon\fs"; Description: "Default Floating Sandbox Laser Cannon"; Flags: exclusive; Types: fullvanilla
 Name: "lasercannon\kiwi"; Description: "Laser Kiwi Laser Cannon Mod"; Flags: exclusive; Types: fullmodded
+Name: "pins"; Description: "Pins"; 
+Name: "pins\fs"; Description: "Default Floating Sandbox Pins"; Flags: exclusive; Types: fullvanilla
+Name: "pins\invis"; Description: "Invisible Pins Mod"; Flags: exclusive; Types: fullmodded
 Name: "screaming"; Description: "Sinking Sounds"; 
 Name: "screaming\fs"; Description: "Default Floating Sandbox Sinking Sounds"; Flags: exclusive; Types: fullvanilla
 Name: "screaming\bandit"; Description: "Bandit's Screaming Mod"; Flags: exclusive; Types: fullmodded
@@ -80,6 +83,12 @@ Source: "files\antimatter-charlemagne\Textures\GenericMipMappedTexture\*"; DestD
 ; Default Floating Sandbox Antimatter Bomb
 Source: "files\antimatter-fs\Resources\*"; DestDir: "{app}\Data\Resources"; Components: "antimatter\fs"; Flags: recursesubdirs createallsubdirs
 Source: "files\antimatter-fs\Textures\GenericMipMappedTexture\*"; DestDir: "{app}\Data\Textures\GenericMipMappedTexture"; Components: "antimatter\fs"; Flags: recursesubdirs createallsubdirs
+; Default Floating Sandbox Pins
+Source: "files\pins-fs\Resources\*"; DestDir: "{app}\Data\Resources"; Components: "pins\fs"; Flags: recursesubdirs createallsubdirs
+Source: "files\pins-fs\Textures\GenericMipMappedTexture\*"; DestDir: "{app}\Data\Textures\GenericMipMappedTexture"; Components: "pins\fs"; Flags: recursesubdirs createallsubdirs
+; Invisible Pins Mod
+Source: "files\pins-invis\Resources\*"; DestDir: "{app}\Data\Resources"; Components: "pins\invis"; Flags: recursesubdirs createallsubdirs
+Source: "files\pins-invis\Textures\GenericMipMappedTexture\*"; DestDir: "{app}\Data\Textures\GenericMipMappedTexture"; Components: "pins\invis"; Flags: recursesubdirs createallsubdirs
 ; Bandit's Screaming Mod
 Source: "files\screaming-bandit\Music\*"; DestDir: "{app}\Data\Music"; Components: "screaming\bandit"; Flags: recursesubdirs createallsubdirs
 ; Default Floating Sandbox Sinking Sounds
