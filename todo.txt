@@ -1,3 +1,7 @@
+Revision 1, Last updated 4/24/2026
+
+Extra Materials v4.5 (v5?) & Multimod Installer v2.6 (v3?)
+
 ☐ EM: The Mystery Material Patch
   ☐ Materials detected
     ☐ Modded Air (Invisible)
@@ -6,5 +10,27 @@
     ☐ Buff Steel Sheet Hull
       - Oh boy, if this didn't make it through, what else from the legacy funnel buffs didn't make it through?
   ☐ Materials re-implemented
+  ☐ Tested w/ De Wadden, Britannia, Titanic & Cosco Jasmine,
+
 ☐ MMI: Vention's Improved Stress Sounds Mod
   ☐ Imported
+  ☐ Tested
+
+☐ EM: One-way electrical cable
+  - In my dreams
+
+☐ EM: Daylight detector
+  - Ummm, maybe if the air has a different temperature after sundown, but I don't think so? Check the electrical materials palette sheet
+
+☐ EM: Self-powered switch(?)
+  - "switch that worked like a generator, if power is flowing through it...then it isn't a conductive material, but if current flowing to it stops, then it is conductive and becomes a self powered material"
+
+☐ EM: Extra Alternate Paper
+
+☐ MMI: Designer's Studio's World Textures Mod
+  ☐ Pickle's Nighttime Water
+    - Need permission from Pickle and, if it was taken from the internet, the original creator
+  ☐ The Sam's Iceberg Land
+    - Need permission from The Sam and, if it was taken from the internet, the original creator
+    - Uh, this'll be interesting with silt
+      - Do we disable silt or add iceberg silt texture too?
