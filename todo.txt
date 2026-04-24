@@ -1,0 +1,10 @@
+☐ EM: The Mystery Material Patch
+  ☐ Materials detected
+    ☐ Modded Air (Invisible)
+      - Um, no? They're the same HEX & opacity value exported between 1.19.1 + v3.1 and 1.20 + v4.4, why are they not imported on the structure file? Maybe this is an exporting issue, not necessarily an Extra Materials issue?
+        ☐ Check back when the .shp2 loads into the game
+    ☐ Buff Steel Sheet Hull
+      - Oh boy, if this didn't make it through, what else from the legacy funnel buffs didn't make it through?
+  ☐ Materials re-implemented
+☐ MMI: Vention's Improved Stress Sounds Mod
+  ☐ Imported
