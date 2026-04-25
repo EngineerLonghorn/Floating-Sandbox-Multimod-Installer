@@ -15,9 +15,10 @@ Extra Materials v4.5 (v5?) & Multimod Installer v2.6 (v3?)
   ☐ Materials re-implemented
   ☐ Tested w/ De Wadden, Britannia, Titanic & Cosco Jasmine,
 
-☐ MMI: Vention's Improved Stress Sounds Mod
-  ☐ Imported
-  ☐ Tested
+☑ MMI: Vention's Improved Stress Sounds Mod
+  ☑ Imported
+  ☑ Tested
+    - Um, desktop.flac error sometimes? But sometimes not? But desktop.flac never existed in vanilla FS??? I don't know man
 
 ☐ EM: One-way electrical cable
   - In my dreams
