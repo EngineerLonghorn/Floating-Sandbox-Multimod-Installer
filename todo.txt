@@ -38,5 +38,6 @@ Extra Materials v4.5 (v5?) & Multimod Installer v2.6 (v3?)
     - Need permission from The Sam and, if it was taken from the internet, the original creator
     - Uh, this'll be interesting with silt
       - Do we disable silt or add iceberg silt texture too?
+  ☐ Dark Caribbean Ocean
 
 ☐ BOTH: New Installation Video
