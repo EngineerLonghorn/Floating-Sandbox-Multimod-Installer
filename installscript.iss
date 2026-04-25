@@ -1,11 +1,11 @@
 #define AppName "Floating Sandbox Designer's Studio Mods"
-#define AppVersion "v2.5"
+#define AppVersion "v2.6"
 #define AppPublisher "Longhorn"
-#define MyAppExeName "Floating Sandbox Multimod Installer v2.5.exe"
+#define MyAppExeName "Floating Sandbox Multimod Installer v2.6.exe"
 #define DefDir 
 
 [Setup]
-AppName=Floating Sandbox Multimod Installer v2.5
+AppName=Floating Sandbox Multimod Installer v2.6
 AppVersion={#AppVersion}
 AppVerName=Floating Sandbox Designer's Studio Mods
 WizardStyle=classic
@@ -28,6 +28,9 @@ Name: "fullvanilla"; Description: "Full Vanilla Installation"
 Name: "custom"; Description: "Custom installation"; Flags: iscustom
 
 [Components]
+Name: "stress"; Description: "Stress Sounds (New!)";
+Name: "stress\fs"; Description: "Default Floating Sandbox Metal Stress Sounds"; Flags: exclusive; Types: fullvanilla
+Name: "stress\ven"; Description: "Vention's Improved Metal Stress Sounds Mod"; Flags: exclusive; Types: fullmodded
 Name: "materials"; Description: "Materials"; 
 Name: "materials\fs"; Description: "Default Floating Sandbox Materials"; Flags: exclusive; Types: fullvanilla
 Name: "materials\em"; Description: "Extra Materials Mod v4.4"; Flags: exclusive; Types: fullmodded
@@ -58,6 +61,10 @@ Name: "splashscreen\emnight"; Description: "Nighttime Extra Materials Mod v4 Spl
 Name: "splashscreen\emchristmas2025"; Description: "Sunset Extra Materials Mod v4 Splash Screen (Christmas Edition)"; Flags: exclusive; Types: fullmodded
 
 [Files]
+; Vention's Improved Metal Stress Sounds Mod
+Source: "files\stress-ven\*"; DestDir: "{app}\Data\Sounds"; Components: "stress\ven"; Flags: recursesubdirs createallsubdirs
+; Default Floating Sandbox Metal Stress Sounds
+Source: "files\stress-fs\*"; DestDir: "{app}\Data\Sounds"; Components: "stress\fs"; Flags: recursesubdirs createallsubdirs
 ; Extra Materials Mod v4.4
 Source: "files\materials-em\materials_structural.json"; DestDir: "{app}\Data\Misc"; Components: "materials\em"
 Source: "files\materials-em\materials_electrical.json"; DestDir: "{app}\Data\Misc"; Components: "materials\em"
