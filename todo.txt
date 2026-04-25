@@ -3,12 +3,15 @@ Revision 1, Last updated 4/24/2026
 Extra Materials v4.5 (v5?) & Multimod Installer v2.6 (v3?)
 
 ☐ EM: The Mystery Material Patch
-  ☐ Materials detected
-    ☐ Modded Air (Invisible)
-      - Um, no? They're the same HEX & opacity value exported between 1.19.1 + v3.1 and 1.20 + v4.4, why are they not imported on the structure file? Maybe this is an exporting issue, not necessarily an Extra Materials issue?
-        ☐ Check back when the .shp2 loads into the game
+  - M.V. Cosco Jasmine    
+    ☐ Materials detected
+      ☐ Modded Air (Invisible)
+        ☐ Check back when the .shp2 loads into the game, same hex cross versions.
     ☐ Buff Steel Sheet Hull
-      - Oh boy, if this didn't make it through, what else from the legacy funnel buffs didn't make it through?
+      ☐ #D5B28A "Buff Steel Sheet Hull"
+  - M.V. De Wadden    
+    ☐ Materials detected
+      ☐ Genuinely no clue, it's fine on the structural layer, and nothing on the electrical & ropes layer should be an issue in any recent version???
   ☐ Materials re-implemented
   ☐ Tested w/ De Wadden, Britannia, Titanic & Cosco Jasmine,
 
@@ -34,3 +37,5 @@ Extra Materials v4.5 (v5?) & Multimod Installer v2.6 (v3?)
     - Need permission from The Sam and, if it was taken from the internet, the original creator
     - Uh, this'll be interesting with silt
       - Do we disable silt or add iceberg silt texture too?
+
+☐ BOTH: New Installation Video
