@@ -1,8 +1,9 @@
-# Floating Sandbox Multimod Installer v2.5
+# Floating Sandbox Multimod Installer v2.6
 
 **CHANGES:**
 
-- Added Invisible Pins Mod & Default FS Pins
+- Added Vention's Improved Metal Stress Sounds Mod
+- Added Magic's S.S. Westfalen Front View
 
 Enjoy!
 
