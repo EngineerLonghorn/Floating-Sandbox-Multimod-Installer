@@ -1,24 +1,28 @@
-Revision 1, Last updated 4/24/2026
+Revision 3, Last updated 4/27/2026
 
-Extra Materials v4.5 (v5?) & Multimod Installer v2.6 (v3?)
+Extra Materials v5 & Multimod Installer v3
 
-☐ EM: The Mystery Material Patch
+☑ EM: The Mystery Material Patch
   - M.V. Cosco Jasmine    
-    ☐ Materials detected
-      ☐ Modded Air (Invisible)
-        ☐ Check back when the .shp2 loads into the game, same hex cross versions.
-    ☐ Buff Steel Sheet Hull
-      ☐ #D5B28A "Buff Steel Sheet Hull"
-  - M.V. De Wadden    
-    ☐ Materials detected
-      ☐ Genuinely no clue, it's fine on the structural layer, and nothing on the electrical & ropes layer should be an issue in any recent version???
-  ☐ Materials re-implemented
-  ☐ Tested w/ De Wadden, Britannia, Titanic & Cosco Jasmine,
+    ☑ Materials detected
+      ☑ Modded Air (Invisible)
+        ☑ Check back when the .shp2 loads into the game, same hex cross versions.
+    ☑ Buff Steel Sheet Hull
+      ☑ #D5B28A "Buff Steel Sheet Hull"
+	- See the "Active" file
+  ☑ Materials re-implemented
+  ☑ Tested w/ De Wadden, Britannia, Titanic & Cosco Jasmine,
+
+☑ MMI: New cosmetic changes
+  ☑ New UI theme & icon
+  ☑ Westfalen Front View page
 
 ☑ MMI: Vention's Improved Stress Sounds Mod
   ☑ Imported
   ☑ Tested
     - Um, desktop.flac error sometimes? But sometimes not? But desktop.flac never existed in vanilla FS??? I don't know man
+
+☐ EM: Extra Electrical Elements tab
 
 ☐ EM: One-way electrical cable
   - In my dreams
@@ -28,8 +32,10 @@ Extra Materials v4.5 (v5?) & Multimod Installer v2.6 (v3?)
 
 ☐ EM: Self-powered switch(?)
   - "switch that worked like a generator, if power is flowing through it...then it isn't a conductive material, but if current flowing to it stops, then it is conductive and becomes a self powered material"
+	- try Self-powered + Switch
 
-☐ EM: Extra Alternate Paper
+☑ EM: Extra Alternate Paper
+	- See April 27th on Google Drive
 
 ☐ MMI: Designer's Studio's World Textures Mod
   ☐ Pickle's Nighttime Water
