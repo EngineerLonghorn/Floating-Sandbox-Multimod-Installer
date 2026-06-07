@@ -1,4 +1,4 @@
-Revision 6, Last updated 6/7/2026
+Revision 7, Last updated June 7th 2026
 
 Extra Materials v4.6 & Multimod Installer v3
 
@@ -24,5 +24,3 @@ Extra Materials v4.6 & Multimod Installer v3
 	☑ Wrought Iron
 	☑ Alternate Low-Alloy Steel
 	☑ Alternate Longleaf Pine
-
-☐ New Installation Video
