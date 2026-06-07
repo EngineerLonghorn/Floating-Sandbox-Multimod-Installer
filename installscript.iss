@@ -1,14 +1,14 @@
 #define AppName "Floating Sandbox Designer's Studio Mods"
-#define AppVersion "v2.6"
+#define AppVersion "v3"
 #define AppPublisher "Longhorn"
-#define MyAppExeName "Floating Sandbox Multimod Installer v2.6.exe"
+#define MyAppExeName "Floating Sandbox Multimod Installer v3.exe"
 #define DefDir 
 
 [Setup]
-AppName=Floating Sandbox Multimod Installer v2.6
+AppName=Floating Sandbox Multimod Installer v3
 AppVersion={#AppVersion}
 AppVerName=Floating Sandbox Designer's Studio Mods
-WizardStyle=classic
+WizardStyle=modern dark polar includetitlebar
 DefaultDirName={localappdata}\Floating Sandbox
 OutputDir=installer
 DirExistsWarning=no
@@ -33,7 +33,7 @@ Name: "stress\fs"; Description: "Default Floating Sandbox Metal Stress Sounds"; 
 Name: "stress\ven"; Description: "Vention's Improved Metal Stress Sounds Mod"; Flags: exclusive; Types: fullmodded
 Name: "materials"; Description: "Materials"; 
 Name: "materials\fs"; Description: "Default Floating Sandbox Materials"; Flags: exclusive; Types: fullvanilla
-Name: "materials\em"; Description: "Extra Materials Mod v4.4"; Flags: exclusive; Types: fullmodded
+Name: "materials\em"; Description: "Extra Materials Mod v4.6"; Flags: exclusive; Types: fullmodded
 Name: "materials\tapeman"; Description: "Tapeman's Material Textures Mod"; Types: fullmodded
 Name: "antimatter"; Description: "Antimatter Bomb"; 
 Name: "antimatter\fs"; Description: "Default Floating Sandbox Antimatter Bomb"; Flags: exclusive; Types: fullvanilla
@@ -55,20 +55,22 @@ Name: "presets\lg"; Description: "Longhorn's Preset Pack"; Types: fullmodded
 Name: "presets\bandit"; Description: "Bandit's Realistic Preset v1"; Types: fullmodded
 Name: "splashscreen"; Description: "Splash Screen"; 
 Name: "splashscreen\fs"; Description: "Default Floating Sandbox Splash Screen"; Flags: exclusive; Types: fullvanilla
-Name: "splashscreen\emday"; Description: "Daytime Extra Materials Mod v4 Splash Screen"; Flags: exclusive;
-Name: "splashscreen\emsunset"; Description: "Sunset Extra Materials Mod v4 Splash Screen"; Flags: exclusive; 
-Name: "splashscreen\emnight"; Description: "Nighttime Extra Materials Mod v4 Splash Screen"; Flags: exclusive;
-Name: "splashscreen\emchristmas2025"; Description: "Sunset Extra Materials Mod v4 Splash Screen (Christmas Edition)"; Flags: exclusive; Types: fullmodded
+Name: "splashscreen\em46"; Description: "Extra Materials Mod v4.6 Splash Screen"; Flags: exclusive; Types: fullmodded
+Name: "splashscreen\em40"; Description: "Extra Materials Mod v4 Splash Screen"; Flags: exclusive; 
+Name: "splashscreen\em40night"; Description: "Extra Materials Mod v4 Splash Screen (Nighttime)"; Flags: exclusive;
+Name: "splashscreen\em40christmas25"; Description: "Extra Materials Mod v4 Splash Screen (Christmas Edition)"; Flags: exclusive;
 
 [Files]
 ; Vention's Improved Metal Stress Sounds Mod
 Source: "files\stress-ven\*"; DestDir: "{app}\Data\Sounds"; Components: "stress\ven"; Flags: recursesubdirs createallsubdirs
 ; Default Floating Sandbox Metal Stress Sounds
 Source: "files\stress-fs\*"; DestDir: "{app}\Data\Sounds"; Components: "stress\fs"; Flags: recursesubdirs createallsubdirs
-; Extra Materials Mod v4.4
+; Extra Materials Mod v4.6
 Source: "files\materials-em\materials_structural.json"; DestDir: "{app}\Data\Misc"; Components: "materials\em"
 Source: "files\materials-em\materials_electrical.json"; DestDir: "{app}\Data\Misc"; Components: "materials\em"
 Source: "files\materials-em\materials_structural_template.png"; DestDir: "{app}\Guides"; Components: "materials\em"
+Source: "files\materials-em\materials_electrical_template.png"; DestDir: "{app}\Guides"; Components: "materials\em"
+Source: "files\materials-em\materials_ropes_template.png"; DestDir: "{app}\Guides"; Components: "materials\em"
 Source: "files\materials-em\Textures\Material\*"; DestDir: "{app}\Data\Textures\Material"; Components: "materials\em"; Flags: recursesubdirs createallsubdirs
 ; Default Floating Sandbox Textures Mod
 Source: "files\materials-fs\materials_structural.json"; DestDir: "{app}\Data\Misc"; Components: "materials\fs"
@@ -108,10 +110,11 @@ Source: "files\bgmusic-fs\Music\*"; DestDir: "{app}\Data\Music"; Components: "bg
 Source: "files\presets-lg\*"; DestDir: "{app}\Data\Themes\Settings"; Components: "presets\lg"; Flags: recursesubdirs createallsubdirs
 ; Bandit's Realistic Preset v1
 Source: "files\presets-bandit\*"; DestDir: "{app}\Data\Themes\Settings"; Components: "presets\lg"; Flags: recursesubdirs createallsubdirs
+; Extra Materials Mod v4.6 Splash Screens
+Source: "files\splashscreen-em\americ\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\em46"; Flags: recursesubdirs createallsubdirs
 ; Extra Materials Mod v4 Splash Screens
-Source: "files\splashscreen-em\day\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\emday"; Flags: recursesubdirs createallsubdirs
-Source: "files\splashscreen-em\sunset\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\emsunset"; Flags: recursesubdirs createallsubdirs
-Source: "files\splashscreen-em\night\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\emnight"; Flags: recursesubdirs createallsubdirs
-Source: "files\splashscreen-em\christmas\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\emchristmas2025"; Flags: recursesubdirs createallsubdirs
+Source: "files\splashscreen-em\sunset\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\em40"; Flags: recursesubdirs createallsubdirs
+Source: "files\splashscreen-em\night\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\em40night"; Flags: recursesubdirs createallsubdirs
+Source: "files\splashscreen-em\christmas\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\em40christmas25"; Flags: recursesubdirs createallsubdirs
 ; Default Floating Sandbox Splash Screens
 Source: "files\splashscreen-fs\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\fs"; Flags: recursesubdirs createallsubdirs
