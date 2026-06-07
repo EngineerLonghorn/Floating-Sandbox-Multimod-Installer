@@ -1,9 +1,10 @@
-# Floating Sandbox Multimod Installer v2.6
+# Floating Sandbox Multimod Installer v3
 
 **CHANGES:**
 
+- A new UI overhaul
 - Added Vention's Improved Metal Stress Sounds Mod
-- Added Magic's S.S. Westfalen Front View
+- Updated Extra Materials v4.5 to v4.6
 
 Enjoy!
 
