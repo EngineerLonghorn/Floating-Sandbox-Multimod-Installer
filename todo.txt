@@ -1,6 +1,6 @@
-Revision 4, Last updated 5/13/2026
+Revision 6, Last updated 6/7/2026
 
-Extra Materials v5 & Multimod Installer v3
+Extra Materials v4.6 & Multimod Installer v3
 
 ☑ EM: The Mystery Material Patch
 
@@ -11,22 +11,18 @@ Extra Materials v5 & Multimod Installer v3
 ☑ MMI: Vention's Improved Stress Sounds Mod
   ☑ Imported
   ☑ Tested
-    - Um, desktop.flac error sometimes? But sometimes not? But desktop.flac never existed in vanilla FS??? I don't know man
 
 ☑ EM: Extra Electrical Elements tab
-	- Should be refined a little
 
 ☑ EM: Self-Powered Bells
 
 ☑ EM: Extra Alternate Paper
 
-☐ MMI: Designer's Studio's World Textures Mod
-  ☐ Pickle's Nighttime Water
-    - Need permission from Pickle and, if it was taken from the internet, the original creator
-  ☐ The Sam's Iceberg Land
-    - Need permission from The Sam and, if it was taken from the internet, the original creator
-    - Uh, this'll be interesting with silt
-      - Do we disable silt or add iceberg silt texture too?
-  ☐ Dark Caribbean Ocean
+☑ EM: White Titanium & Steel
 
-☐ BOTH: New Installation Video
+☑ EM: Minty Pig Colours
+	☑ Wrought Iron
+	☑ Alternate Low-Alloy Steel
+	☑ Alternate Longleaf Pine
+
+☐ New Installation Video
