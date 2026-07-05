@@ -1,11 +1,10 @@
-# Floating Sandbox Multimod Installer v3
+# Floating Sandbox Multimod Installer v3.1
 
 **CHANGES:**
 
-- A new UI overhaul
-- Added Vention's Improved Metal Stress Sounds Mod
-- Updated Extra Materials v4.5 to v4.6
+- Updated Extra Materials v4.6 to v4.7.
+- Added Mr. Bones' Improved Metal Stress Sounds Mod
+- Added Extra Materials Mod Legacy Splash Screens
+- Added Dark Mode Shipbuilder Background Mod
 
 Enjoy!
-
-
