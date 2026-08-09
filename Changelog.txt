@@ -1,0 +1,8 @@
+# Floating Sandbox Multimod Installer v3.2
+
+**CHANGES:**
+
+- Updated Extra Materials v4.7 to v4.8, and added Extra Materials Legacy v4.8.
+- Updated the dreaded README.
+
+Enjoy!
