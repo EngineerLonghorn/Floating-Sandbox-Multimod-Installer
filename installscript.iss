@@ -1,11 +1,11 @@
 #define AppName "Floating Sandbox Designer's Studio Mods"
-#define AppVersion "v3.1"
+#define AppVersion "v3.2"
 #define AppPublisher "Longhorn"
-#define MyAppExeName "Floating Sandbox Multimod Installer v3.1.exe"
+#define MyAppExeName "Floating Sandbox Multimod Installer v3.2.exe"
 #define DefDir 
 
 [Setup]
-AppName=Floating Sandbox Multimod Installer v3.1
+AppName=Floating Sandbox Multimod Installer v3.2
 AppVersion={#AppVersion}
 AppVerName=Floating Sandbox Designer's Studio Mods
 WizardStyle=modern dark polar includetitlebar
@@ -34,7 +34,8 @@ Name: "stress\ven"; Description: "Vention's Improved Metal Stress Sounds Mod"; F
 Name: "stress\bones"; Description: "Mr. Bones' Improved Metal Stress Sounds Mod (Fork of Vention's)"; Flags: exclusive;
 Name: "materials"; Description: "Materials"; 
 Name: "materials\fs"; Description: "Default Floating Sandbox Materials"; Flags: exclusive; Types: fullvanilla
-Name: "materials\em"; Description: "Extra Materials Mod v4.7"; Flags: exclusive; Types: fullmodded
+Name: "materials\em"; Description: "Extra Materials Mod v4.8"; Flags: exclusive; Types: fullmodded
+Name: "materials\emL"; Description: "Extra Materials Legacy Mod v4.8"; Flags: exclusive;
 Name: "materials\tapeman"; Description: "Tapeman's Material Textures Mod"; Types: fullmodded
 Name: "antimatter"; Description: "Antimatter Bomb"; 
 Name: "antimatter\fs"; Description: "Default Floating Sandbox Antimatter Bomb"; Flags: exclusive; Types: fullvanilla
@@ -59,8 +60,9 @@ Name: "sbbg\fs"; Description: "Default Floating Sandbox Shipbuilder Background";
 Name: "sbbg\em"; Description: "Dark Mode Shipbuilder Background Mod"; Flags: exclusive; Types: fullmodded
 Name: "splashscreen"; Description: "Splash Screen"; 
 Name: "splashscreen\fs"; Description: "Default Floating Sandbox Splash Screen"; Flags: exclusive; Types: fullvanilla
-Name: "splashscreen\em"; Description: "Extra Materials Mod v4.7 Splash Screen"; Flags: exclusive; Types: fullmodded
+Name: "splashscreen\em"; Description: "Extra Materials Mod v4.8 Splash Screen (Auvergne)"; Flags: exclusive; Types: fullmodded
 Name: "splashscreen\l"; Description: "Legacy Extra Materials Splash Screens"; Flags: exclusive;
+Name: "splashscreen\l\em47"; Description: "v4.7 Splash Screen (Chilean Star)"; Flags: exclusive
 Name: "splashscreen\l\em46"; Description: "v4.6 Splash Screen (Americ)"; Flags: exclusive;
 Name: "splashscreen\l\em46l"; Description: "v4.6 Splash Screen (Liberte)"; Flags: exclusive;
 Name: "splashscreen\l\em40"; Description: "v4 Splash Screen (Generic P1X Ship 1)"; Flags: exclusive; 
@@ -80,13 +82,20 @@ Source: "files\stress-bones\*"; DestDir: "{app}\Data\Sounds"; Components: "stres
 Source: "files\stress-ven\*"; DestDir: "{app}\Data\Sounds"; Components: "stress\ven"; Flags: recursesubdirs createallsubdirs
 ; Default Floating Sandbox Metal Stress Sounds
 Source: "files\stress-fs\*"; DestDir: "{app}\Data\Sounds"; Components: "stress\fs"; Flags: recursesubdirs createallsubdirs
-; Extra Materials Mod v4.6
+; Extra Materials Mod v4.8
 Source: "files\materials-em\materials_structural.json"; DestDir: "{app}\Data\Misc"; Components: "materials\em"
 Source: "files\materials-em\materials_electrical.json"; DestDir: "{app}\Data\Misc"; Components: "materials\em"
 Source: "files\materials-em\materials_structural_template.png"; DestDir: "{app}\Guides"; Components: "materials\em"
 Source: "files\materials-em\materials_electrical_template.png"; DestDir: "{app}\Guides"; Components: "materials\em"
 Source: "files\materials-em\materials_ropes_template.png"; DestDir: "{app}\Guides"; Components: "materials\em"
 Source: "files\materials-em\Textures\Material\*"; DestDir: "{app}\Data\Textures\Material"; Components: "materials\em"; Flags: recursesubdirs createallsubdirs
+; Extra Materials Mod v4.8 Legacy
+Source: "files\materials-emL\materials_structural.json"; DestDir: "{app}\Data\Misc"; Components: "materials\emL"
+Source: "files\materials-emL\materials_electrical.json"; DestDir: "{app}\Data\Misc"; Components: "materials\emL"
+Source: "files\materials-emL\materials_structural_template.png"; DestDir: "{app}\Guides"; Components: "materials\emL"
+Source: "files\materials-emL\materials_electrical_template.png"; DestDir: "{app}\Guides"; Components: "materials\emL"
+Source: "files\materials-emL\materials_ropes_template.png"; DestDir: "{app}\Guides"; Components: "materials\emL"
+Source: "files\materials-emL\Textures\Material\*"; DestDir: "{app}\Data\Textures\Material"; Components: "materials\emL"; Flags: recursesubdirs createallsubdirs
 ; Default Floating Sandbox Textures Mod
 Source: "files\materials-fs\materials_structural.json"; DestDir: "{app}\Data\Misc"; Components: "materials\fs"
 Source: "files\materials-fs\materials_electrical.json"; DestDir: "{app}\Data\Misc"; Components: "materials\fs"
@@ -126,8 +135,9 @@ Source: "files\presets-lg\*"; DestDir: "{app}\Data\Themes\Settings"; Components:
 ; Bandit's Realistic Preset v1
 Source: "files\presets-bandit\*"; DestDir: "{app}\Data\Themes\Settings"; Components: "presets\lg"; Flags: recursesubdirs createallsubdirs
 ; Extra Materials Mod Splash Screen
-Source: "files\splashscreen-em\chileanstar\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\em"; Flags: recursesubdirs createallsubdirs
+Source: "files\splashscreen-em\auvergne\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\em"; Flags: recursesubdirs createallsubdirs
 ; Extra Materials Mod Legacy Splash Screens
+Source: "files\splashscreen-em\chileanstar\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\l\em47"; Flags: recursesubdirs createallsubdirs
 Source: "files\splashscreen-em\liberte\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\l\em46l"; Flags: recursesubdirs createallsubdirs
 Source: "files\splashscreen-em\americ\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\l\em46"; Flags: recursesubdirs createallsubdirs
 Source: "files\splashscreen-em\sunset\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\l\em40"; Flags: recursesubdirs createallsubdirs
