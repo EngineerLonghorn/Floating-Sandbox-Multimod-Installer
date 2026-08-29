@@ -1,11 +1,11 @@
 #define AppName "Floating Sandbox Designer's Studio Mods"
-#define AppVersion "v3.2"
+#define AppVersion "v3.3"
 #define AppPublisher "Longhorn"
-#define MyAppExeName "Floating Sandbox Multimod Installer v3.2.exe"
+#define MyAppExeName "Floating Sandbox Multimod Installer v3.3.exe"
 #define DefDir 
 
 [Setup]
-AppName=Floating Sandbox Multimod Installer v3.2
+AppName=Floating Sandbox Multimod Installer v3.3
 AppVersion={#AppVersion}
 AppVerName=Floating Sandbox Designer's Studio Mods
 WizardStyle=modern dark polar includetitlebar
@@ -34,8 +34,7 @@ Name: "stress\ven"; Description: "Vention's Improved Metal Stress Sounds Mod"; F
 Name: "stress\bones"; Description: "Mr. Bones' Improved Metal Stress Sounds Mod (Fork of Vention's)"; Flags: exclusive;
 Name: "materials"; Description: "Materials"; 
 Name: "materials\fs"; Description: "Default Floating Sandbox Materials"; Flags: exclusive; Types: fullvanilla
-Name: "materials\em"; Description: "Extra Materials Mod v4.8"; Flags: exclusive; Types: fullmodded
-Name: "materials\emL"; Description: "Extra Materials Legacy Mod v4.8"; Flags: exclusive;
+Name: "materials\em"; Description: "Extra Materials Mod v4.8.1"; Flags: exclusive; Types: fullmodded
 Name: "materials\tapeman"; Description: "Tapeman's Material Textures Mod"; Types: fullmodded
 Name: "antimatter"; Description: "Antimatter Bomb"; 
 Name: "antimatter\fs"; Description: "Default Floating Sandbox Antimatter Bomb"; Flags: exclusive; Types: fullvanilla
@@ -82,20 +81,13 @@ Source: "files\stress-bones\*"; DestDir: "{app}\Data\Sounds"; Components: "stres
 Source: "files\stress-ven\*"; DestDir: "{app}\Data\Sounds"; Components: "stress\ven"; Flags: recursesubdirs createallsubdirs
 ; Default Floating Sandbox Metal Stress Sounds
 Source: "files\stress-fs\*"; DestDir: "{app}\Data\Sounds"; Components: "stress\fs"; Flags: recursesubdirs createallsubdirs
-; Extra Materials Mod v4.8
+; Extra Materials Mod v4.8.1
 Source: "files\materials-em\materials_structural.json"; DestDir: "{app}\Data\Misc"; Components: "materials\em"
 Source: "files\materials-em\materials_electrical.json"; DestDir: "{app}\Data\Misc"; Components: "materials\em"
 Source: "files\materials-em\materials_structural_template.png"; DestDir: "{app}\Guides"; Components: "materials\em"
 Source: "files\materials-em\materials_electrical_template.png"; DestDir: "{app}\Guides"; Components: "materials\em"
 Source: "files\materials-em\materials_ropes_template.png"; DestDir: "{app}\Guides"; Components: "materials\em"
 Source: "files\materials-em\Textures\Material\*"; DestDir: "{app}\Data\Textures\Material"; Components: "materials\em"; Flags: recursesubdirs createallsubdirs
-; Extra Materials Mod v4.8 Legacy
-Source: "files\materials-emL\materials_structural.json"; DestDir: "{app}\Data\Misc"; Components: "materials\emL"
-Source: "files\materials-emL\materials_electrical.json"; DestDir: "{app}\Data\Misc"; Components: "materials\emL"
-Source: "files\materials-emL\materials_structural_template.png"; DestDir: "{app}\Guides"; Components: "materials\emL"
-Source: "files\materials-emL\materials_electrical_template.png"; DestDir: "{app}\Guides"; Components: "materials\emL"
-Source: "files\materials-emL\materials_ropes_template.png"; DestDir: "{app}\Guides"; Components: "materials\emL"
-Source: "files\materials-emL\Textures\Material\*"; DestDir: "{app}\Data\Textures\Material"; Components: "materials\emL"; Flags: recursesubdirs createallsubdirs
 ; Default Floating Sandbox Textures Mod
 Source: "files\materials-fs\materials_structural.json"; DestDir: "{app}\Data\Misc"; Components: "materials\fs"
 Source: "files\materials-fs\materials_electrical.json"; DestDir: "{app}\Data\Misc"; Components: "materials\fs"
