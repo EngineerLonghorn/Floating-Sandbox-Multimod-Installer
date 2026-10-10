@@ -1,11 +1,11 @@
 #define AppName "Floating Sandbox Designer's Studio Mods"
-#define AppVersion "v3.3"
+#define AppVersion "v3.4"
 #define AppPublisher "Longhorn"
-#define MyAppExeName "Floating Sandbox Multimod Installer v3.3.exe"
+#define MyAppExeName "Floating Sandbox Multimod Installer v3.4.exe"
 #define DefDir 
 
 [Setup]
-AppName=Floating Sandbox Multimod Installer v3.3
+AppName=Floating Sandbox Multimod Installer v3.4
 AppVersion={#AppVersion}
 AppVerName=Floating Sandbox Designer's Studio Mods
 WizardStyle=modern dark polar includetitlebar
@@ -28,6 +28,9 @@ Name: "fullvanilla"; Description: "Full Vanilla Installation"
 Name: "custom"; Description: "Custom installation"; Flags: iscustom
 
 [Components]
+Name: "engine"; Description: "Engine Sounds";
+Name: "engine\fs"; Description: "Default Floating Sandbox Engine Telegraph Sounds"; Flags: exclusive; Types: fullvanilla
+Name: "engine\bones"; Description: "Mr. Bones' Improved Engine Telegraph Sounds Mod"; Flags: exclusive; Types: fullmodded
 Name: "stress"; Description: "Stress Sounds";
 Name: "stress\fs"; Description: "Default Floating Sandbox Metal Stress Sounds"; Flags: exclusive; Types: fullvanilla
 Name: "stress\ven"; Description: "Vention's Improved Metal Stress Sounds Mod"; Flags: exclusive; Types: fullmodded
@@ -36,13 +39,18 @@ Name: "materials"; Description: "Materials";
 Name: "materials\fs"; Description: "Default Floating Sandbox Materials"; Flags: exclusive; Types: fullvanilla
 Name: "materials\em"; Description: "Extra Materials Mod v4.8.1"; Flags: exclusive; Types: fullmodded
 Name: "materials\tapeman"; Description: "Tapeman's Material Textures Mod"; Types: fullmodded
-Name: "antimatter"; Description: "Antimatter Bomb"; 
-Name: "antimatter\fs"; Description: "Default Floating Sandbox Antimatter Bomb"; Flags: exclusive; Types: fullvanilla
-Name: "antimatter\charlemagne"; Description: "Charlemagne Antimatter Mod"; Flags: exclusive; Types: fullmodded
-Name: "lasercannon"; Description: "Laser Cannon"; 
+Name: "antimatter"; Description: "Antimatter Bomb";
+Name: "antimatter\sound"; Description: "Antimatter Bomb Sounds";
+Name: "antimatter\sound\fs"; Description: "Default Floating Sandbox Antimatter Bomb Sounds"; Flags: exclusive; Types: fullvanilla
+Name: "antimatter\sound\bones"; Description: "Mr. Bones' Improved Antimatter Bomb Sounds Mod"; Flags: exclusive; Types: fullmodded
+Name: "antimatter\sound\bones2"; Description: "Mr. Bones' Worsened Antimatter Bomb Sounds Mod"; Flags: exclusive
+Name: "antimatter\texture"; Description: "Antimatter Bomb Textures";
+Name: "antimatter\texture\fs"; Description: "Default Floating Sandbox Antimatter Bomb"; Flags: exclusive; Types: fullvanilla
+Name: "antimatter\texture\charlemagne"; Description: "Charlemagne Antimatter Mod"; Flags: exclusive; Types: fullmodded
+Name: "lasercannon"; Description: "Laser Cannon Textures"; 
 Name: "lasercannon\fs"; Description: "Default Floating Sandbox Laser Cannon"; Flags: exclusive; Types: fullvanilla
 Name: "lasercannon\kiwi"; Description: "Laser Kiwi Laser Cannon Mod"; Flags: exclusive; Types: fullmodded
-Name: "pins"; Description: "Pins"; 
+Name: "pins"; Description: "Pin Textures"; 
 Name: "pins\fs"; Description: "Default Floating Sandbox Pins"; Flags: exclusive; Types: fullvanilla
 Name: "pins\invis"; Description: "Invisible Pins Mod"; Flags: exclusive; Types: fullmodded
 Name: "screaming"; Description: "Sinking Sounds"; 
@@ -57,10 +65,11 @@ Name: "presets\bandit"; Description: "Bandit's Realistic Preset v1"; Types: full
 Name: "sbbg"; Description: "Shipbuilder"; 
 Name: "sbbg\fs"; Description: "Default Floating Sandbox Shipbuilder Background"; Flags: exclusive; Types: fullvanilla
 Name: "sbbg\em"; Description: "Dark Mode Shipbuilder Background Mod"; Flags: exclusive; Types: fullmodded
-Name: "splashscreen"; Description: "Splash Screen"; 
+Name: "splashscreen"; Description: "Splash Screen Textures"; 
 Name: "splashscreen\fs"; Description: "Default Floating Sandbox Splash Screen"; Flags: exclusive; Types: fullvanilla
-Name: "splashscreen\em"; Description: "Extra Materials Mod v4.8 Splash Screen (Auvergne)"; Flags: exclusive; Types: fullmodded
+Name: "splashscreen\em"; Description: "Extra Materials Mod v4.8.1 Splash Screen (Oceanic)"; Flags: exclusive; Types: fullmodded
 Name: "splashscreen\l"; Description: "Legacy Extra Materials Splash Screens"; Flags: exclusive;
+Name: "splashscreen\l\em48"; Description: "v4.8 Splash Screen (Auvergne)"; Flags: exclusive;
 Name: "splashscreen\l\em47"; Description: "v4.7 Splash Screen (Chilean Star)"; Flags: exclusive
 Name: "splashscreen\l\em46"; Description: "v4.6 Splash Screen (Americ)"; Flags: exclusive;
 Name: "splashscreen\l\em46l"; Description: "v4.6 Splash Screen (Liberte)"; Flags: exclusive;
@@ -71,6 +80,16 @@ Name: "splashscreen\l\em22"; Description: "v2.2 Splash Screen (Caribia)"; Flags:
 Name: "splashscreen\l\em20"; Description: "v2 Splash Screen (Caronia)"; Flags: exclusive;
 
 [Files]
+; Default Floating Sandbox Antimatter Bomb Sounds
+Source: "files\antimatter-sounds-fs\*"; DestDir: "{app}\Data\Sounds"; Components: "antimatter\sound\fs"; Flags: recursesubdirs createallsubdirs
+; Mr. Bones' Improved Antimatter Bomb Sounds Mod
+Source: "files\antimatter-sounds-bones\*"; DestDir: "{app}\Data\Sounds"; Components: "antimatter\sound\bones"; Flags: recursesubdirs createallsubdirs
+; Mr. Bones' Worsened Antimatter Bomb Sounds Mod
+Source: "files\antimatter-sounds-bones-2\*"; DestDir: "{app}\Data\Sounds"; Components: "antimatter\sound\bones2"; Flags: recursesubdirs createallsubdirs
+; Mr. Bones' Improved Engine Telegraph Sounds Mod
+Source: "files\engine-bones\*"; DestDir: "{app}\Data\Sounds"; Components: "engine\bones"; Flags: recursesubdirs createallsubdirs
+; Default Floating Sandbox Engine Telegraph Sounds
+Source: "files\engine-fs\*"; DestDir: "{app}\Data\Sounds"; Components: "engine\fs"; Flags: recursesubdirs createallsubdirs
 ; Dark Mode Shipbuilder Background Mod
 Source: "files\sbbg-em\*"; DestDir: "{app}\Data\Resources"; Components: "sbbg\em"; Flags: recursesubdirs createallsubdirs
 ; Default Floating Sandbox Shipbuilder Background
@@ -103,11 +122,11 @@ Source: "files\lasercannon-fs\Resources\*"; DestDir: "{app}\Data\Resources"; Com
 Source: "files\lasercannon-fs\Shaders\Game\*"; DestDir: "{app}\Data\Shaders\Game"; Components: "lasercannon\fs"; Flags: recursesubdirs createallsubdirs
 Source: "files\lasercannon-fs\Textures\GenericMipMappedTexture\*"; DestDir: "{app}\Data\Textures\GenericMipMappedTexture"; Components: "lasercannon\fs"; Flags: recursesubdirs createallsubdirs
 ; Charlemagne Antimatter Bomb
-Source: "files\antimatter-charlemagne\Resources\*"; DestDir: "{app}\Data\Resources"; Components: "antimatter\charlemagne"; Flags: recursesubdirs createallsubdirs
-Source: "files\antimatter-charlemagne\Textures\GenericMipMappedTexture\*"; DestDir: "{app}\Data\Textures\GenericMipMappedTexture"; Components: "antimatter\charlemagne"; Flags: recursesubdirs createallsubdirs
+Source: "files\antimatter-charlemagne\Resources\*"; DestDir: "{app}\Data\Resources"; Components: "antimatter\texture\charlemagne"; Flags: recursesubdirs createallsubdirs
+Source: "files\antimatter-charlemagne\Textures\GenericMipMappedTexture\*"; DestDir: "{app}\Data\Textures\GenericMipMappedTexture"; Components: "antimatter\texture\charlemagne"; Flags: recursesubdirs createallsubdirs
 ; Default Floating Sandbox Antimatter Bomb
-Source: "files\antimatter-fs\Resources\*"; DestDir: "{app}\Data\Resources"; Components: "antimatter\fs"; Flags: recursesubdirs createallsubdirs
-Source: "files\antimatter-fs\Textures\GenericMipMappedTexture\*"; DestDir: "{app}\Data\Textures\GenericMipMappedTexture"; Components: "antimatter\fs"; Flags: recursesubdirs createallsubdirs
+Source: "files\antimatter-fs\Resources\*"; DestDir: "{app}\Data\Resources"; Components: "antimatter\texture\fs"; Flags: recursesubdirs createallsubdirs
+Source: "files\antimatter-fs\Textures\GenericMipMappedTexture\*"; DestDir: "{app}\Data\Textures\GenericMipMappedTexture"; Components: "antimatter\texture\fs"; Flags: recursesubdirs createallsubdirs
 ; Default Floating Sandbox Pins
 Source: "files\pins-fs\Resources\*"; DestDir: "{app}\Data\Resources"; Components: "pins\fs"; Flags: recursesubdirs createallsubdirs
 Source: "files\pins-fs\Textures\GenericMipMappedTexture\*"; DestDir: "{app}\Data\Textures\GenericMipMappedTexture"; Components: "pins\fs"; Flags: recursesubdirs createallsubdirs
@@ -127,8 +146,9 @@ Source: "files\presets-lg\*"; DestDir: "{app}\Data\Themes\Settings"; Components:
 ; Bandit's Realistic Preset v1
 Source: "files\presets-bandit\*"; DestDir: "{app}\Data\Themes\Settings"; Components: "presets\lg"; Flags: recursesubdirs createallsubdirs
 ; Extra Materials Mod Splash Screen
-Source: "files\splashscreen-em\auvergne\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\em"; Flags: recursesubdirs createallsubdirs
+Source: "files\splashscreen-em\oceanic\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\em"; Flags: recursesubdirs createallsubdirs
 ; Extra Materials Mod Legacy Splash Screens
+Source: "files\splashscreen-em\auvergne\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\l\em48"; Flags: recursesubdirs createallsubdirs
 Source: "files\splashscreen-em\chileanstar\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\l\em47"; Flags: recursesubdirs createallsubdirs
 Source: "files\splashscreen-em\liberte\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\l\em46l"; Flags: recursesubdirs createallsubdirs
 Source: "files\splashscreen-em\americ\*"; DestDir: "{app}\Data\Resources"; Components: "splashscreen\l\em46"; Flags: recursesubdirs createallsubdirs
