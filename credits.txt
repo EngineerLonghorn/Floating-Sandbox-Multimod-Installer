@@ -1,4 +1,4 @@
-Multimod Installer v3.2 Credits
+Multimod Installer v3.4 Credits
 
 Vention ('ventrixi1' on Discord) - Vention's Improved Metal Stress Sounds Mod
 TapeMan ('dapemanripoff' on Discord) - TapeMan's Material Textures Mod
@@ -6,10 +6,12 @@ Bandit ('bandit1228' on Discord) - Bandit's Background Music Mod, Screaming Mod,
 P1X ('p1x1l4t3d' on Discord) - Loading Screen Ship EMv4-EMv4.5 ("Generic P1X Ship 1") & Multimod Installer Ship MMIv2-2.6 ("Normandie Front View")
 Mrs. Magic ('raven_enjoyer.' on Discord) - Loading Screen Ship EMv4.6 ("Americ"), EMv4.7 ("Chilean Star") & Multimod Installer Ship MMIv3 ("Westfalen")
 Saffyre ('s4ffyr3' on Discord) - Loading Screen Ship EMv4.6 ("Liberte"), EMv4.8 ("Auvergne")
+Mia & M2L ('flaccidcake' & 'waffles714' on Discord) - Loading Screen Ship EMv4.8.1 ("Oceanic")
+Mr. Bones ('rushe2isawesome9913' on Discord) - Bones' Improved Antimatter Bomb (sounds from Star Wars & Star Trek), Engine Telegraph (sounds from Cameron's Titanic) & Metal Stress Sounds Mods
 
-Extra Materials v4.8 Credits
+Extra Materials v4.8.1 Credits
 
-M2L ('waffles714' on Discord) - Mild Steel (Colours & Code)
+M2L ('waffles714' on Discord) - Mild Steel (Colours & Code), v4.8.1 Patch & Code
 Shawny ('shawny_boi' on Discord) - Buff Steels (Colours)
 SWTEXTURE (www.swtexture.com) - Gasoline, Ice, Metal Alloy, Nuclear Material, Ancient Roman Travertine & Marble (Material Textures)
 Freepik (rawpixel.com) - Diamond (Material Texture)
